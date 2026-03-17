@@ -1,0 +1,159 @@
+{
+  "kievan-rus": {
+    "slug": "kievan-rus",
+    "name": "Kievan Rus",
+    "period": "9th–13th century",
+    "modernLocation": "Ukraine, Belarus, western Russia",
+    "description": "Medieval East Slavic state centered on Kyiv. One of the largest states in medieval Europe, connecting Scandinavia to Byzantium along major river trade routes. Fell under Mongol suzerainty after 1240.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1200, "label": "Kievan Rus fragmented into competing principalities", "category": "political", "source": "shchupak-ukraine-7-2024" },
+      { "year": 1223, "label": "Battle of Kalka — first Mongol-Rus encounter. Coalition of Rus princes and Polovtsy defeated.", "category": "military", "source": "medinsky-russia-6-2025" },
+      { "year": 1237, "label": "Batu Khan's army invades Ryazan — beginning of Mongol conquest of Rus", "category": "military", "source": "medinsky-russia-6-2025" },
+      { "year": 1238, "label": "Fall of Vladimir. 14 Rus cities taken by Mongols in February alone.", "category": "military", "source": "medinsky-russia-6-2025" },
+      { "year": 1240, "label": "Fall of Kyiv to Batu Khan. City reduced to a village of 200 houses by papal envoy's account.", "category": "military", "source": "medinsky-russia-6-2025" },
+      { "year": 1240, "label": "Kievan Rus principalities become tributary states of the Golden Horde", "category": "political", "source": "shchupak-ukraine-7-2024" }
+    ]
+  },
+
+  "mongol-empire": {
+    "slug": "mongol-empire",
+    "name": "Mongol Empire",
+    "period": "1206–1368",
+    "modernLocation": "Mongolia, China, Central Asia, Persia, Russia",
+    "description": "The largest contiguous land empire in history. Founded by Chinggis Khan in 1206. By mid-century it stretched from the Pacific to Eastern Europe. The Pax Mongolica reopened Eurasian trade routes connecting China, Central Asia, Persia and Europe.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1206, "label": "Temüjin proclaimed Chinggis Khan at kurultai — Mongol Empire founded", "category": "political", "source": "medinsky-russia-6-2025" },
+      { "year": 1215, "label": "Conquest of Jin Dynasty (northern China) — Mongols adopt Chinese siege technology", "category": "military", "source": "medinsky-russia-6-2025" },
+      { "year": 1219, "label": "Mongol invasion of Khwarezm — Samarkand, Bukhara, Urgench destroyed", "category": "military", "source": "medinsky-russia-6-2025" },
+      { "year": 1227, "label": "Death of Chinggis Khan. Empire divided among successors.", "category": "political", "source": "medinsky-russia-6-2025" },
+      { "year": 1235, "label": "Kurultai decides on western expansion. Batu Khan appointed commander.", "category": "political", "source": "medinsky-russia-6-2025" },
+      { "year": 1241, "label": "Mongols defeat Polish-German army at Legnica; defeat Hungary. Western campaign halted.", "category": "military", "source": "medinsky-russia-6-2025" },
+      { "year": 1242, "label": "Batu Khan establishes Golden Horde in Pontic-Caspian steppe", "category": "political", "source": "medinsky-russia-6-2025" }
+    ]
+  },
+
+  "delhi-sultanate": {
+    "slug": "delhi-sultanate",
+    "name": "Delhi Sultanate",
+    "period": "1206–1526",
+    "modernLocation": "Northern India, Pakistan",
+    "description": "Founded in 1206 by Qutbuddin Aybak after the defeat of Rajput kingdoms. Five successive dynasties ruled from Delhi, extending control across much of the Indian subcontinent. Repeatedly repelled Mongol invasions.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1206, "label": "Delhi Sultanate founded. Qutbuddin Aybak first Sultan.", "category": "political", "source": "ncert-india-7-2020" },
+      { "year": 1210, "label": "Shamsuddin Iltutmish consolidates Sultanate. Introduces iqta administrative system.", "category": "political", "source": "ncert-india-7-2020" },
+      { "year": 1236, "label": "Raziyya Sultan becomes ruler — first woman to rule the Delhi Sultanate", "category": "political", "source": "ncert-india-7-2020" },
+      { "year": 1240, "label": "Raziyya deposed by nobles after four years.", "category": "political", "source": "ncert-india-7-2020" },
+      { "year": 1290, "label": "Khalji dynasty begins. Alauddin Khalji expands Sultanate into southern India.", "category": "political", "source": "ncert-india-7-2020" },
+      { "year": 1299, "label": "Mongol army attacks Delhi. Alauddin Khalji repels invasion.", "category": "military", "source": "ncert-india-7-2020" }
+    ]
+  },
+
+  "mapungubwe": {
+    "slug": "mapungubwe",
+    "name": "Mapungubwe",
+    "period": "c.900–1300",
+    "modernLocation": "Northern South Africa / southern Zimbabwe",
+    "description": "Iron Age kingdom at the confluence of the Limpopo and Shashe rivers. One of the earliest complex societies in southern Africa, with evidence of social stratification, gold working, and long-distance Indian Ocean trade networks. Declined around 1300 as climate changed and the center of power shifted north to Great Zimbabwe.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1200, "label": "Mapungubwe at its peak. Hilltop elite separated from commoner settlements below.", "category": "social", "source": "acsi-grade6" },
+      { "year": 1220, "label": "Gold trade with Indian Ocean merchants. Artifacts include gold rhinoceros figurine.", "category": "economic", "source": "acsi-grade6" },
+      { "year": 1270, "label": "Decline of Mapungubwe. Population shifts north toward Great Zimbabwe plateau.", "category": "political", "source": "acsi-grade6" }
+    ]
+  },
+
+  "mali-empire": {
+    "slug": "mali-empire",
+    "name": "Mali Empire",
+    "period": "1235–1600",
+    "modernLocation": "West Africa — Mali, Senegal, Gambia, Guinea",
+    "description": "Major West African empire that controlled trans-Saharan gold and salt trade routes. Founded by Sundiata Keita after the Battle of Kirina (1235). At its height under Mansa Musa (1312–1337), it was one of the wealthiest states in the world.",
+    "dataStatus": "pending",
+    "events": [
+      { "year": 1235, "label": "Sundiata Keita defeats Sumanguru Kante at Battle of Kirina. Mali Empire founded.", "category": "political", "source": null },
+      { "year": 1255, "label": "Death of Sundiata Keita. Mali Empire controls major trans-Saharan trade routes.", "category": "political", "source": null }
+    ]
+  },
+
+  "song-china": {
+    "slug": "song-china",
+    "name": "Song Dynasty China",
+    "period": "960–1279",
+    "modernLocation": "China",
+    "description": "One of the most economically and technologically advanced societies of the medieval world. Developed paper money, printing, gunpowder weapons, and sophisticated maritime trade. The Southern Song resisted Mongol conquest for decades before falling in 1279.",
+    "dataStatus": "pending",
+    "events": [
+      { "year": 1234, "label": "Mongols complete conquest of Jin Dynasty in northern China with Song alliance.", "category": "military", "source": null },
+      { "year": 1271, "label": "Kublai Khan founds Yuan Dynasty. Southern Song still resists.", "category": "political", "source": null },
+      { "year": 1279, "label": "Battle of Yamen — last Song forces defeated. End of Song Dynasty.", "category": "military", "source": null }
+    ]
+  },
+
+  "kingdom-of-vungu": {
+    "slug": "kingdom-of-vungu",
+    "name": "Kingdom of Vungu",
+    "period": "c.1250–1568",
+    "modernLocation": "Western DRC / Republic of Congo",
+    "description": "One of the early Kongo-sphere kingdoms in the lower Congo basin. Part of the network of Bantu-speaking polities that preceded and later formed tributary relationships with the Kingdom of Kongo. Evidence of centralised political authority from the 13th century onward.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1250, "label": "Kingdom of Vungu established as distinct polity in the lower Congo basin", "category": "political", "source": null },
+      { "year": 1275, "label": "Regional trade networks connecting Vungu to Atlantic coast and interior", "category": "economic", "source": null }
+    ]
+  },
+
+  "kingdom-of-ngoyo": {
+    "slug": "ngoyo",
+    "name": "Kingdom of Ngoyo",
+    "period": "c.1250–1883",
+    "modernLocation": "Cabinda (Angola) / southern Republic of Congo",
+    "description": "Coastal Kongo-sphere kingdom controlling Atlantic trade access at the mouth of the Congo River system. Its longevity — persisting until the colonial period — attests to its political resilience and strategic coastal position.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1250, "label": "Kingdom of Ngoyo established, controlling Atlantic coastal trade", "category": "political", "source": null },
+      { "year": 1280, "label": "Ngoyo develops as commercial hub connecting interior and Atlantic networks", "category": "economic", "source": null }
+    ]
+  },
+
+  "kingdom-of-kakongo": {
+    "slug": "kakongo",
+    "name": "Kingdom of Kakongo",
+    "period": "c.1250–1885",
+    "modernLocation": "Cabinda (Angola) / Bas-Congo (DRC)",
+    "description": "Kongo-sphere kingdom between Ngoyo and Loango, controlling a significant stretch of the Atlantic coast. Participated in regional trade networks extending into the interior. Among the polities documented by early European contacts in the 15th century.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1250, "label": "Kingdom of Kakongo emerges in the lower Congo coastal region", "category": "political", "source": null },
+      { "year": 1280, "label": "Kakongo participates in coastal and interior trade networks", "category": "economic", "source": null }
+    ]
+  },
+
+  "kingdom-of-nsundi": {
+    "slug": "nsundi",
+    "name": "Kingdom of Nsundi",
+    "period": "c.1250–17th century",
+    "modernLocation": "Northern Angola / western DRC",
+    "description": "Interior Kongo-sphere kingdom on the northern bank of the lower Congo River. Later became one of the six core provinces of the Kingdom of Kongo. Its 13th-century origins make it part of the formative period of Kongo political culture.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1250, "label": "Kingdom of Nsundi established in the lower Congo interior", "category": "political", "source": null },
+      { "year": 1285, "label": "Nsundi develops administrative structures characteristic of Kongo-sphere polities", "category": "political", "source": null }
+    ]
+  },
+
+  "kingdom-of-mpemba": {
+    "slug": "mpemba",
+    "name": "Kingdom of Mpemba",
+    "period": "c.1250–17th century",
+    "modernLocation": "Northern Angola / western DRC",
+    "description": "One of the six core Kongo provinces, situated south of the Congo River. Mpemba would later become the heartland of the Kingdom of Kongo, with the capital Mbanza Kongo located within its territory. Among the earliest documented polities of the Kongo sphere.",
+    "dataStatus": "real",
+    "events": [
+      { "year": 1250, "label": "Kingdom of Mpemba established. Region that will become the Kongo heartland.", "category": "political", "source": null },
+      { "year": 1290, "label": "Mpemba develops as a central node in the emerging Kongo political sphere", "category": "political", "source": null }
+    ]
+  }
+}

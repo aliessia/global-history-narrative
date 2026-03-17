@@ -1,0 +1,242 @@
+/* ─── Add these to your existing map.css ─────────────────────────────────── */
+
+/* Header layout update */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  flex: 1;
+  min-width: 160px;
+}
+
+/* Explore / Analytics toggle */
+.header-mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.mode-btn {
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: none;
+  background: transparent;
+  color: rgba(255,255,255,0.5);
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: all 0.18s ease;
+}
+
+.mode-btn.active {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+}
+
+.mode-btn:hover:not(.active) {
+  color: rgba(255,255,255,0.75);
+}
+
+/* CCSR stat in header */
+.ccsr-stat {
+  border-left: 1px solid rgba(255,255,255,0.12);
+  padding-left: 10px;
+  margin-left: 4px;
+}
+
+/* ─── Analytics Panel ──────────────────────────────────────────────────────── */
+.analytics-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  bottom: 0;
+  background: rgba(12, 12, 18, 0.96);
+  backdrop-filter: blur(10px);
+  border-left: 1px solid rgba(255,255,255,0.08);
+  overflow-y: auto;
+  z-index: 1000;
+  padding: 60px 0 130px 0;
+}
+
+.analytics-section {
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.analytics-label {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 10px;
+}
+
+.analytics-sub {
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.analytics-note {
+  font-size: 10px;
+  color: rgba(255,255,255,0.28);
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* CCSR big number */
+.ccsr-big {
+  font-size: 52px;
+  font-weight: 700;
+  color: #f97316;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+/* Heatmap mode buttons */
+.heatmode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.heatmode-btn {
+  padding: 9px 11px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.07);
+  background: rgba(255,255,255,0.03);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.heatmode-btn:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.14);
+}
+
+.heatmode-btn.active {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: rgba(239, 68, 68, 0.4);
+}
+
+.heatmode-name {
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+  font-weight: 500;
+}
+
+.heatmode-btn.active .heatmode-name {
+  color: #fca5a5;
+}
+
+.heatmode-desc {
+  font-size: 10px;
+  color: rgba(255,255,255,0.3);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+/* CAS — geographic focus chart */
+.cas-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.cas-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  color: rgba(255,255,255,0.45);
+}
+
+.cas-legend-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.cas-row {
+  margin-bottom: 10px;
+}
+
+.cas-source-name {
+  font-size: 11px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 4px;
+}
+
+.cas-bar-track {
+  display: flex;
+  height: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+  gap: 1px;
+  background: rgba(255,255,255,0.04);
+}
+
+.cas-segment {
+  height: 100%;
+  transition: width 0.4s ease;
+  min-width: 2px;
+}
+
+.cas-empty {
+  font-size: 10px;
+  color: rgba(255,255,255,0.2);
+  font-style: italic;
+}
+
+/* RTCD — region type coverage */
+.rtcd-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.rtcd-type {
+  font-size: 11px;
+  color: rgba(255,255,255,0.55);
+  width: 80px;
+  flex-shrink: 0;
+  text-transform: capitalize;
+}
+
+.rtcd-bar-track {
+  flex: 1;
+  height: 8px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.rtcd-bar-fill {
+  height: 100%;
+  background: #60a5fa;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.rtcd-stat {
+  font-size: 10px;
+  color: rgba(255,255,255,0.3);
+  width: 28px;
+  text-align: right;
+  flex-shrink: 0;
+}

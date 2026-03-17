@@ -1,0 +1,64 @@
+{
+  "sources": [
+    {
+      "id": "acsi-grade6",
+      "title": "Social Sciences Grade 6 Teacher's Guide",
+      "grade": 6,
+      "country": "South Africa",
+      "language": "English",
+      "curriculum": "Christian private",
+      "curriculumClaim": "Social Sciences Grade 6",
+      "author": null,
+      "publisher": "ACSI / Anchorage Curriculum Solutions",
+      "year": null,
+      "pagesConsulted": null,
+      "link": "https://acsi.co.za/wp-content/uploads/2020/07/SS-Sample-Compressed.pdf",
+      "notes": "Christian curriculum used in private schools. Covers Mapungubwe as part of South African medieval history. Providential framing positions African kingdoms as spiritually incomplete pending European missionary contact."
+    },
+    {
+      "id": "shchupak-ukraine-7-2024",
+      "title": "Історія України",
+      "grade": 7,
+      "country": "Ukraine",
+      "language": "Ukrainian",
+      "curriculum": "national",
+      "curriculumClaim": "History of Ukraine",
+      "author": "Щупак І.Я.",
+      "publisher": "Видавничий центр «Оріон»",
+      "year": 2024,
+      "pagesConsulted": "116–134",
+      "link": null,
+      "notes": "Post-2022 New Ukrainian School (NUS) reform edition. Explicit Hrushevsky citation arguing Ukrainian succession to Kievan Rus."
+    },
+    {
+      "id": "medinsky-russia-6-2025",
+      "title": "История России, IX — начало XVI в.",
+      "grade": 6,
+      "country": "Russia",
+      "language": "Russian",
+      "curriculum": "national",
+      "curriculumClaim": "History of Russia",
+      "author": "Мединский В.Р., Торкунов А.В.",
+      "publisher": "Просвещение",
+      "year": 2025,
+      "pagesConsulted": "112–126",
+      "link": null,
+      "notes": "State-mandated textbook authored by Vladimir Medinsky, former Minister of Culture. Approved by Ministry of Education order No.769, November 2024. Covers IX–early XVI century."
+    },
+    {
+      "id": "ncert-india-7-2020",
+      "title": "Our Pasts – II",
+      "grade": 7,
+      "country": "India",
+      "language": "English",
+      "curriculum": "national",
+      "curriculumClaim": "Indian medieval history (700–1750)",
+      "author": "NCERT",
+      "publisher": "NCERT",
+      "year": 2020,
+      "pagesConsulted": "30–44",
+      "link": null,
+      "notes": "National Council of Educational Research and Training. Chapter 3: The Delhi Sultans. Standard curriculum across all Indian states."
+    }
+  ]
+}

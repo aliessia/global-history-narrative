@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-03-04T14:53:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/201334542",
+        "slug": "mapungubwe",
+        "admin_level": "2",
+        "boundary": "administrative",
+        "end_date": "1289",
+        "name": "Kingdom of Mapungubwe",
+        "place": "country",
+        "source:1": "Huffman, Thomas N., Zambezian States. In Vogel, Joseph O (ed.)., Encyclopedia of Precolonial Africa. AltaMira Press, 1997, 513-514.",
+        "start_date": "1220",
+        "wikidata": "Q98085401",
+        "wikipedia": "en:Kingdom of Mapungubwe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1897028,
+              -22.5750223
+            ],
+            [
+              30.4180238,
+              -22.6616349
+            ],
+            [
+              30.9571219,
+              -21.661136
+            ],
+            [
+              29.3705383,
+              -20.3588355
+            ],
+            [
+              28.3546146,
+              -20.8147949
+            ],
+            [
+              28.5520848,
+              -21.6393333
+            ],
+            [
+              29.1897028,
+              -22.5750223
+            ]
+          ]
+        ]
+      },
+      "id": "way/201334542"
+    }
+  ]
+}
