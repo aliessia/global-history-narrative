@@ -1,0 +1,126 @@
+{
+  "europe_west": {
+    "id": "europe_west",
+    "name": "Western Europe",
+    "shortName": "W. Europe",
+    "color": "#4878a0",
+    "centroid": [48.5, 4.0],
+    "bounds": [[35, -10], [58, 22]],
+    "description": "Feudal monarchies, city-republics, and the Church",
+    "slugs": [
+      "kingdom-of-france", "kingdom-of-england", "holy-roman-empire",
+      "hanseatic-league", "republic-of-venice", "republic-of-genoa",
+      "kingdom-of-aragon", "kingdom-of-castile", "kingdom-of-portugal",
+      "papal-states", "kingdom-of-sicily", "commune-of-florence",
+      "kingdom-of-norway", "kingdom-of-sweden", "kingdom-of-denmark"
+    ]
+  },
+  "europe_east": {
+    "id": "europe_east",
+    "name": "Eastern Europe & Balkans",
+    "shortName": "E. Europe",
+    "color": "#6a80b0",
+    "centroid": [50.0, 28.0],
+    "bounds": [[38, 14], [62, 42]],
+    "description": "Rus principalities, Balkan kingdoms, and the Byzantine sphere",
+    "slugs": [
+      "kievan-rus", "vladimir-suzdal", "novgorod-republic",
+      "kingdom-of-serbia", "second-bulgarian-empire",
+      "kingdom-of-hungary", "kingdom-of-poland", "kingdom-of-bohemia",
+      "byzantine-empire", "latin-empire", "kingdom-of-croatia"
+    ]
+  },
+  "middle_east": {
+    "id": "middle_east",
+    "name": "Middle East & Anatolia",
+    "shortName": "Middle East",
+    "color": "#c07828",
+    "centroid": [33.5, 40.0],
+    "bounds": [[22, 25], [42, 62]],
+    "description": "Mongol successor states, Islamic sultanates, and the crusader presence",
+    "slugs": [
+      "ottoman-empire", "ilkhanate", "ayyubid-sultanate",
+      "mamluk-sultanate", "sultanate-of-rum", "armenian-kingdom-of-cilicia",
+      "abbasid-caliphate", "crusader-states"
+    ]
+  },
+  "central_asia": {
+    "id": "central_asia",
+    "name": "Central Asia & Steppe",
+    "shortName": "C. Asia",
+    "color": "#987820",
+    "centroid": [46.0, 64.0],
+    "bounds": [[36, 45], [58, 92]],
+    "description": "Mongol khanates and steppe confederacies",
+    "slugs": [
+      "golden-horde", "chagatai-khanate", "mongol-empire",
+      "khwarezmian-empire"
+    ]
+  },
+  "east_asia": {
+    "id": "east_asia",
+    "name": "East Asia",
+    "shortName": "E. Asia",
+    "color": "#4a8830",
+    "centroid": [34.0, 115.0],
+    "bounds": [[10, 95], [46, 146]],
+    "description": "Imperial China, Japan, Korea, and Southeast Asian polities",
+    "slugs": [
+      "yuan-dynasty", "song-china", "japan",
+      "goryeo", "annam", "champa", "khmer-empire",
+      "western-xia", "jin-dynasty"
+    ]
+  },
+  "south_asia": {
+    "id": "south_asia",
+    "name": "South Asia",
+    "shortName": "S. Asia",
+    "color": "#70a038",
+    "centroid": [22.0, 78.0],
+    "bounds": [[6, 60], [36, 92]],
+    "description": "The Delhi Sultanate and South Indian kingdoms",
+    "slugs": [
+      "delhi-sultanate", "chola-empire", "hoysala-empire",
+      "kakatiyas", "pandya-kingdom"
+    ]
+  },
+  "africa_west": {
+    "id": "africa_west",
+    "name": "West Africa",
+    "shortName": "W. Africa",
+    "color": "#b85040",
+    "centroid": [13.0, -3.0],
+    "bounds": [[-5, -18], [24, 16]],
+    "description": "Saharan trade empires and sub-Saharan kingdoms",
+    "slugs": [
+      "mali-empire", "ghana-empire", "songhai-empire",
+      "kanem-bornu", "hausa-states", "wolof-empire"
+    ]
+  },
+  "africa_east": {
+    "id": "africa_east",
+    "name": "East & Central Africa",
+    "shortName": "E. Africa",
+    "color": "#c05840",
+    "centroid": [7.0, 38.0],
+    "bounds": [[-26, 24], [20, 54]],
+    "description": "Christian Ethiopia, Swahili city-states, and interior kingdoms",
+    "slugs": [
+      "ethiopian-empire", "kingdom-of-makuria", "swahili-coast",
+      "great-zimbabwe", "sultanate-of-kilwa"
+    ]
+  },
+  "americas": {
+    "id": "americas",
+    "name": "The Americas",
+    "shortName": "Americas",
+    "color": "#8050a0",
+    "centroid": [4.0, -76.0],
+    "bounds": [[-56, -122], [26, -58]],
+    "description": "Mesoamerican polities and South American empires",
+    "slugs": [
+      "maya-city-states", "aztec-empire", "inca-empire",
+      "chimu-kingdom", "mississippian-culture"
+    ]
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "kingdom-of-france": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "1-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Feudal fragmentation after the Treaty of Verdun (843)",
+        "Rise of the Capetian dynasty under Hugh Capet (987)",
+        "Weak royal authority and dominance of dukes and counts",
+        "Need for political centralization",
+        "Economic growth and regional specialization",
+        "Paris as economic and cultural center",
+        "Toward estate monarchy and General Estates"
+      ],
+      "framingNotes": "Original: «Fransiya 14 ta mustaqil mulklarga bo‘linib ketgan edi… yirik gersog va graflar qirolni “tenglarning birinchisi” deb hisoblashardi.» Translation: 'France was divided into 14 independent domains… major dukes and counts considered the king “first among equals”.' France is framed as politically fragmented but economically integrating, creating the conditions for royal centralization.",
+      "analystNotes": "Direct 13th-century relevance because the text connects feudal fragmentation, economic specialization, and the strengthening of royal authority to the rise of estate monarchy in the 13th–14th centuries.",
+      "coderID": "AS"
+    }
+  ],
+  "kingdom-of-england": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 4,
+      "pageRefs": "Angliya bo‘limi",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Baronial resistance to royal authority",
+        "Economic growth and London as major trade center",
+        "Peasant unrest and Robin Hood tradition",
+        "Conflict between King John and Pope Innocent III",
+        "Magna Carta (1215)",
+        "Rights of free men and legal protections",
+        "Simon de Montfort's Parliament (1265)",
+        "Permanent summoning of Parliament from 1295",
+        "Two-chamber Parliament from 1343",
+        "Estate monarchy"
+      ],
+      "framingNotes": "Original: «1215-yilda “Erkinlikning buyuk xartiyasi” … qirol qonunlarga muvofiq hukmronlik qilishi kerakligiga rozi bo‘ldi.» Translation: 'In 1215 the Magna Carta ... the king agreed that he must rule in accordance with the law.' England is framed as a kingdom where aristocratic resistance and institutional development limited monarchy and strengthened representative rule.",
+      "analystNotes": "Direct 13th-century relevance through Magna Carta, the 1265 Parliament, and the institutional formation of estate monarchy.",
+      "coderID": "AS"
+    }
+  ],
+  "holy-roman-empire": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 3,
+      "pageRefs": "Fridrix II va Germaniya bo‘limi",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Frederick II and the end of the Hohenstaufen dynasty",
+        "Sicily as imperial center",
+        "Conflict with the Papacy",
+        "Weak imperial central power",
+        "Electoral princes (Kurfürsten)",
+        "Political fragmentation",
+        "Loss of effective imperial authority"
+      ],
+      "framingNotes": "Original: «imperator “tenglar ichida teng” … haqiqiy markaziy hokimiyat mavjud emas edi.» Translation: 'the emperor was “first among equals” ... real central authority did not exist.' The empire is framed as a politically fragmented formation unlike centralized France and England.",
+      "analystNotes": "Direct 13th-century relevance through the reign of Frederick II and the structural weakness of imperial authority in the 13th century.",
+      "coderID": "AS"
+    }
+  ],
+  "hanseatic-league": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "Germaniya shaharlari va savdo ittifoqlari",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Formation of Hanseatic trade alliance",
+        "Lübeck, Hamburg, Bremen and other northern cities",
+        "Trade across the Baltic and North Seas",
+        "Economic and political alliance",
+        "Conflict with Denmark",
+        "Northern European commercial integration"
+      ],
+      "framingNotes": "Original: «XIV asr o‘rtalariga kelib … Lyubek, Gamburg, Bremen va boshqa shaharlari Ganza savdo ittifoqiga birlashdilar.» Translation: 'By the mid-14th century Lübeck, Hamburg, Bremen and other cities united into the Hanseatic trade alliance.' The Hanseatic League is framed as a large-scale urban commercial union that shaped northern European trade.",
+      "analystNotes": "Direct relevance because the text treats the Hanseatic League as part of the later medieval commercial system growing out of 13th–14th century urban development.",
+      "coderID": "AS"
+    }
+  ],
+  "republic-of-venice": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "7-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Venice as a major maritime power by the 13th century",
+        "Adriatic and Aegean possessions",
+        "Commercial dominance in the eastern Mediterranean",
+        "Trade with Byzantium, Egypt, Syria, Iberia, France, England, and the Netherlands",
+        "Manufacture of cloth, silk, glass, and weapons",
+        "Gold ducats and monetary influence",
+        "Rivalry and wars with Genoa",
+        "Defeat of Genoa in 1380",
+        "Doge, Senate, Great Council, and oligarchic republican institutions",
+        "Marco Polo"
+      ],
+      "framingNotes": "Original: «XIII asrdayoq Venetsiya respublikasi Italiyadagi ulkan dengiz davlati mavqeyiga erishgan edi.» / «1380-yilda Venetsiya respublikasi Genuya flotini tamomila mag‘lub qildi.» Translation: 'Already in the 13th century the Republic of Venice had attained the status of a great maritime power in Italy.' / 'In 1380 the Republic of Venice completely defeated the Genoese fleet.' Venice is framed as a trade-maritime oligarchic republic linking East and West.",
+      "analystNotes": "Direct 13th-century relevance is explicit. The text emphasizes commercial supremacy, naval power, and state institutions.",
+      "coderID": "AS"
+    }
+  ],
+  "republic-of-genoa": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 1,
+      "pageRefs": "7-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Genoa as a city-republic from the 10th century",
+        "Mediterranean and Black Sea possessions",
+        "Naval power as the basis of wealth",
+        "Rivalry with Venice",
+        "Victory over Venice in 1298",
+        "Defeat by Venice in 1380"
+      ],
+      "framingNotes": "Original: «1298-yilda genuyaliklar Venetsiya flotini mag‘lub etishdi.» / «Genuyaning Venetsiya bilan oxirgi yirik to‘qnashuvi 1380-yilda … venetsiyaliklarning g‘alabasi bilan yakunlandi.» Translation: 'In 1298 the Genoese defeated the Venetian fleet.' / 'Genoa's last major clash with Venice in 1380 ended in a Venetian victory.' Genoa is framed mainly as Venice's principal commercial and naval rival.",
+      "analystNotes": "Direct 13th-century relevance through the explicit 1298 naval victory and the long Venice-Genoa rivalry.",
+      "coderID": "AS"
+    }
+  ],
+  "ottoman-empire": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "11-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Fragmentation of the Seljuk state and emergence of Anatolian beyliks",
+        "Foundation of the Ottoman beylik under Osman I",
+        "Early expansion into Byzantine lands",
+        "Role of Ertugrul and Osman",
+        "Capture of Bursa under Orhan",
+        "Military reforms and regular army",
+        "State expansion in the late 13th and early 14th centuries"
+      ],
+      "framingNotes": "Original: «Usmon beyligi deb atalgan.» / «XIII asr oxiri va XIV asr boshlarida Usmoniylar davlati o‘z hududini sezilarli darajada kengaytirib oldi.» Translation: 'It came to be called the Ottoman beylik.' / 'By the late 13th and early 14th centuries the Ottoman state significantly expanded its territory.' The Ottomans are framed as a frontier polity that turned into a major state through conquest and military organization.",
+      "analystNotes": "Direct 13th-century relevance through Osman I and the formation of the Ottoman polity.",
+      "coderID": "AS"
+    }
+  ],
+  "ilkhanate": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 4,
+      "pageRefs": "12-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Mongol conquest of Iran",
+        "Foundation of the Ilkhanid state under Hulagu in 1256",
+        "Rule over Iran, Azerbaijan, Iraq, and neighboring regions",
+        "Destruction caused by conquest",
+        "Reforms under Ghazan Khan",
+        "Conversion to Islam",
+        "Administrative and fiscal centralization",
+        "Breakup into successor states"
+      ],
+      "framingNotes": "Original: «Huloku 1256-yilda … Hulokuylar davlatiga asos soldi.» / «G‘ozonxon … ma’muriy va iqtisodiy islohotlar o‘tkazib…» Translation: 'In 1256 Hulagu founded the Ilkhanid state.' / 'Ghazan Khan carried out administrative and economic reforms…' The Ilkhanate is framed first as a Mongol conquering regime, then as a reforming Islamic state.",
+      "analystNotes": "Direct 13th-century relevance is explicit through the conquest and creation of the Ilkhanate in 1256.",
+      "coderID": "AS"
+    }
+  ],
+  "golden-horde": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 6,
+      "pageRefs": "10-mavzu; 78–81",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Formation in the ulus of Jochi",
+        "Batu Khan's western conquests",
+        "Subordination of Rus' lands",
+        "Tribute system and princely appointments",
+        "Urban centers Saray Batu and Saray Berke",
+        "Multi-ethnic population",
+        "Trade between China, India, Europe, and the steppe",
+        "Kurultai and state administration",
+        "Military structure",
+        "Gradual independence from central Mongol authority"
+      ],
+      "framingNotes": "Original: «Oltin O‘rda davlati Chingizxonning to‘ng‘ich o‘g‘li Jo‘ji ulusi hududida tashkil topgan.» / «Rus knyazliklari har yili Oltin O‘rdaga soliq to‘lashlari lozim edi.» Translation: 'The Golden Horde was formed in the territory of Jochi's ulus, the eldest son of Chinggis Khan.' / 'The Rus' principalities had to pay tribute to the Golden Horde every year.' The Golden Horde is framed as a major Mongol successor state combining nomadic power, urban centers, and Eurasian transit trade.",
+      "analystNotes": "Direct 13th-century relevance is explicit through state formation, Batu's campaigns, and the installation of tribute-based rule over Rus' lands.",
+      "coderID": "AS"
+    }
+  ],
+  "delhi-sultanate": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 4,
+      "pageRefs": "14-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Foundation in 1206 by Qutb al-Din Aibak",
+        "Expansion under Iltutmish",
+        "Rule of Razia",
+        "Islamic state administration",
+        "Iqta land system",
+        "Taxation and military structure",
+        "Alauddin Khalji's reforms",
+        "Price regulation and market policy",
+        "Tughluq period expansion",
+        "Political fragmentation and decline"
+      ],
+      "framingNotes": "Original: «1206-yilda Qutbiddin Oyboq tomonidan Dehli sultonligiga asos solindi.» Translation: 'In 1206 the Delhi Sultanate was founded by Qutb al-Din Aibak.' The Delhi Sultanate is framed as a centralized Islamic polity that expanded through conquest and administrative reforms.",
+      "analystNotes": "Direct 13th-century relevance through its foundation and early consolidation under Aibak and Iltutmish.",
+      "coderID": "AS"
+    }
+  ],
+  "yuan-dynasty": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "90–91",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Mongol conquest of China",
+        "Kublai Khan and foundation of Yuan rule",
+        "Conquest of Southern Song and unification of China in 1279",
+        "Provincial administration",
+        "Combination of Mongol and Chinese governing methods",
+        "Expansion toward Korea and Southeast Asia",
+        "Peasant burdens and unrest",
+        "Economic crisis and decline"
+      ],
+      "framingNotes": "Original: «Xubilay 1279-yilda Xitoyni to‘liq egallab, uni imperiyaning markaziga aylantirdi.» / «Xitoy an’analari asosida boshqarila boshlandi.» Translation: 'In 1279 Kublai fully conquered China and made it the center of the empire.' / 'It began to be governed on the basis of Chinese traditions.' The Yuan dynasty is framed as a Mongol-ruled but increasingly sinicized imperial order.",
+      "analystNotes": "Direct 13th-century relevance is explicit through Kublai's conquest and the founding of Yuan rule.",
+      "coderID": "AS"
+    }
+  ],
+  "kievan-rus": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "10-mavzu (Rus yerlari bo‘limi)",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Fragmentation into nearly independent lands",
+        "Kiev as symbolic capital",
+        "Weakening through princely and noble conflicts",
+        "Mongol capture of Kiev in 1240"
+      ],
+      "framingNotes": "Original: «Kiyev Rusi deyarli mustaqil o'lkalarga bo'linganidan so'ng … Kiyev shahri poytaxt hisoblanishda davom etdi.» / «1240-yilda Kiyev qo'lga kiritildi.» Translation: 'After Kievan Rus' was divided into nearly independent lands ... the city of Kiev continued to be regarded as the capital.' / 'In 1240 Kiev was captured.' Kievan Rus is framed as the older Rus' center whose political disintegration led to conquest.",
+      "analystNotes": "Direct 13th-century relevance through the Mongol capture of Kiev in 1240.",
+      "coderID": "AS"
+    }
+  ],
+  "vladimir-suzdal": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "10-mavzu (Rus yerlari bo‘limi)",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Independence from Kievan Rus in 1130",
+        "Moscow founded in 1147 under Yuri Dolgorukiy",
+        "One of the strongest Rus' principalities",
+        "Conquered in Batu's invasion in 1237",
+        "Military support for Alexander Nevsky"
+      ],
+      "framingNotes": "Original: «1130-yilda Vladimir-Suzdal o'lkasi Kiyev Rusidan mustaqil bo'ldi.» / «1237-yilda … Vladimir-Suzdal … bosib olindi.» Translation: 'In 1130 Vladimir-Suzdal became independent from Kievan Rus.' / 'In 1237 ... Vladimir-Suzdal ... was conquered.' The polity is framed as a major successor principality of Rus'.",
+      "analystNotes": "Direct 13th-century relevance through the Mongol invasion and its place in the military-political structure of Rus'.",
+      "coderID": "AS"
+    }
+  ],
+  "novgorod-republic": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "10-mavzu (Rus yerlari bo‘limi)",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Alexander Nevsky as prince of Novgorod",
+        "Swedish attack on Novgorod lands",
+        "Livonian knights' attack",
+        "Recovery of Pskov and Izborsk",
+        "Battle on the Ice (1242)",
+        "Defense of Novgorod's independence",
+        "Loss of independence in 1478"
+      ],
+      "framingNotes": "Original: «Bu vaqtda Novgorod knyazi yosh Aleksandr Yaroslavich edi.» / «Hal qiluvchi jang 1242-yil 5-aprel kuni Chud ko‘li ustida bo‘lib o‘tdi.» Translation: 'At this time the young Aleksandr Yaroslavich was prince of Novgorod.' / 'The decisive battle took place on 5 April 1242 on Lake Peipus.' Novgorod is framed as a northern Rus' polity whose independence was preserved by military resistance.",
+      "analystNotes": "Direct 13th-century relevance through Swedish and Livonian attacks and the 1242 battle.",
+      "coderID": "AS"
+    }
+  ],
+  "ottoman-empire?": [],
+  "kingdom-of-serbia": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "10-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Serbia became politically independent in the 12th century",
+        "Transformation into a kingdom under Stefan I",
+        "Powerful expansion under Stefan Dushan (1331–1355)"
+      ],
+      "framingNotes": "Original: «XII asrda Serbiya siyosiy jihatdan mustaqil bo‘lmagan bo‘lsa-da, biroq yirik davlatga aylandi. … Stefan I davrida Serbiya Vizantiyadan mustaqil bo‘lib, qirollikka aylandi.» Translation: 'In the 12th century Serbia was not yet politically independent, but became a large state. ... Under Stefan I, Serbia became independent from Byzantium and turned into a kingdom.' Serbia is framed as a rising Balkan monarchy.",
+      "analystNotes": "Direct relevance because the text places Serbia's transition into kingship in the 12th–13th century political frame.",
+      "coderID": "AS"
+    }
+  ],
+  "second-bulgarian-empire": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "10-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Liberation from Byzantine rule under Asen in 1187",
+        "Consolidation under Asen II",
+        "Territorial expansion in the Balkans",
+        "Trade and craft development in the 13th–14th centuries",
+        "Political weakening and fragmentation in the late 13th and 14th centuries"
+      ],
+      "framingNotes": "Original: «1187-yili kelib … Asen Vizantiyaga qarshi qo‘zg‘olon ko‘tardi va Ikkinchi Bolgariya podshohligining birinchi hukmdori bo‘ldi.» / «XIII–XIV asrlarda Bolgariyada … savdo-sotiq ishlari bilan mashg‘ul edi.» Translation: 'By 1187 Asen raised an uprising against Byzantium and became the first ruler of the Second Bulgarian Tsardom.' / 'In the 13th–14th centuries in Bulgaria ... [people] were engaged in trade and handicrafts.' Bulgaria is framed as a restored Balkan kingdom that flourished and then fragmented.",
+      "analystNotes": "Direct 13th-century relevance through political expansion, trade, and later weakening.",
+      "coderID": "AS"
+    }
+  ],
+  "japan": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 4,
+      "pageRefs": "16-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Distinctive imperial political structure",
+        "Rise of shogunal rule",
+        "Samurai military order",
+        "Minamoto Yoritomo and the Kamakura shogunate",
+        "Mongol invasions of 1274 and 1281",
+        "Typhoons and the defeat of the Mongol invasions",
+        "Political crisis and the Ashikaga shogunate"
+      ],
+      "framingNotes": "Original: «1192-yilda Minamoto imperator tomonidan Yaponiya bosh harbiy rahbari – syogun unvonini oldi.» / «Xubilay 1274-yilda Yaponiya orollarini zabt etish uchun katta dengiz floti qo‘shini yubordi.» Translation: 'In 1192 Minamoto received from the emperor the title of shogun, chief military leader of Japan.' / 'In 1274 Kublai sent a large naval force to conquer the Japanese islands.' Japan is framed as a feudal-military state whose shogunal institutions and anti-Mongol defense defined its medieval development.",
+      "analystNotes": "Direct 13th-century relevance through the Kamakura shogunate and the Mongol invasions.",
+      "coderID": "AS"
+    }
+  ],
+  "goryeo": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "16-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Mongol invasions of Korea",
+        "Submission of Goryeo after resistance",
+        "Integration into the Yuan imperial order",
+        "Continued internal governance under Mongol dominance",
+        "Release from Yuan dependence after 1368"
+      ],
+      "framingNotes": "Original: «XIII asr boshlariga kelib Koreyaga mo‘g‘ullarning tinimsiz hujumlari boshlandi.» / «Koreyo Xitoydagi Yuan imperiyasiga qaram bo‘lib qoldi.» Translation: 'By the beginning of the 13th century the constant Mongol attacks on Korea began.' / 'Goryeo became dependent on the Yuan empire in China.' Korea is framed through Mongol conquest and subordination rather than through autonomous political development.",
+      "analystNotes": "Direct 13th-century relevance because the main narrative concerns Mongol attacks and Goryeo's submission in the 13th century.",
+      "coderID": "AS"
+    }
+  ],
+  "ghana-empire": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "partial",
+      "pageCount": 2,
+      "pageRefs": "17-mavzu",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Ghana as an early powerful West African state",
+        "Gold trade and taxation of caravans",
+        "Relations with Arab merchants",
+        "Economic decline and disintegration"
+      ],
+      "framingNotes": "Original: «G‘arbiy Sudandagi eng qudratli davlat VIII asrda vujudga kelgan Gana edi.» Translation: 'The most powerful state in Western Sudan was Ghana, which arose in the 8th century.' Ghana is framed as an earlier commercial precursor to Mali and Songhay.",
+      "analystNotes": "Not directly centered on the 13th century, but structurally relevant as the predecessor state in the western Sudanese succession leading to Mali.",
+      "coderID": "AS"
+    }
+  ],
+  "mali-empire": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "17-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Formation on the upper Niger",
+        "Rise under Sundiata Keita",
+        "Control of gold and salt trade",
+        "Incorporation of Ghana",
+        "Atlantic-facing expansion",
+        "Mansa Musa and imperial peak",
+        "Cities such as Niani, Timbuktu, and Gao",
+        "Later decline"
+      ],
+      "framingNotes": "Original: «Mali XIII asrda – Sundiata Keyta davrida yuksala boshlaydi.» / «Mansa Muso (1312–1337) davrida imperiya o‘z qudratining eng yuqori cho‘qqisiga chiqadi.» Translation: 'Mali began to rise in the 13th century under Sundiata Keita.' / 'Under Mansa Musa (1312–1337) the empire reached the height of its power.' Mali is framed as the dominant commercial empire of medieval West Africa.",
+      "analystNotes": "Direct 13th-century relevance through the explicit rise of Mali under Sundiata Keita in the 13th century.",
+      "coderID": "AS"
+    }
+  ],
+  "songhai-empire": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "17-mavzu",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "instrumental",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Songhay around Gao",
+        "Control of trade routes",
+        "Service under Mali",
+        "Later political independence",
+        "Subsequent regional expansion"
+      ],
+      "framingNotes": "Original: «Mali davlati XIII asr oxirida Ganoni bosib olgach, songaylar uzoq vaqt Mali qirollariga xizmat qildilar.» Translation: 'After Mali conquered Gao at the end of the 13th century, the Songhay served the kings of Mali for a long time.' Songhay is framed as an emerging successor power rather than the main focus of the period.",
+      "analystNotes": "Indirect 13th-century relevance because the text places Songhay in relation to Mali's late-13th-century expansion rather than focusing on Songhay's own later peak.",
+      "coderID": "AS"
+    }
+  ],
+  "maya-city-states": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "18-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Maya city-states in Yucatan, Guatemala, and neighboring regions",
+        "Independent political organization",
+        "Urban centers such as Chichen Itza, Tikal, and Copan",
+        "Agriculture, trade, and crafts",
+        "Use of hieroglyphic writing",
+        "Spanish conquest as later endpoint"
+      ],
+      "framingNotes": "Original: «Mayyalar … bir necha shahar-davlatlarga asos solganlar.» / «Mayya shahar-davlatlari mustaqil boshqaruv tizimiga ega bo‘lib…» Translation: 'The Maya founded several city-states.' / 'The Maya city-states had an independent system of government…' The Maya are framed as a highly urbanized and culturally advanced civilization organized through city-states.",
+      "analystNotes": "Direct 13th-century relevance because the text explicitly discusses Maya trade, urban life, and political organization in the 13th–15th centuries.",
+      "coderID": "AS"
+    }
+  ],
+  "aztec-empire": [
+    {
+      "sourceId": "uzb-rtm-jahon-tarixi-grade8-2024",
+      "coverageStatus": "present",
+      "pageCount": 1,
+      "pageRefs": "18-mavzu",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Migration into the Valley of Mexico",
+        "Foundation of Tenochtitlan in 1325",
+        "Military service and expansion",
+        "Alliance politics",
+        "Tribute and urban growth",
+        "Rise as a major regional power"
+      ],
+      "framingNotes": "Original: «1325-yilda Tenochtitlan shahri asos solinadi.» / «…azteklar 1429-yilda mustaqillikka erishadilar…» Translation: 'In 1325 the city of Tenochtitlan is founded.' / '...the Aztecs achieved independence in 1429...' The Aztecs are framed as an expanding militarized state centered on Tenochtitlan.",
+      "analystNotes": "Direct relevance because the narrative begins with the 1325 foundation of Tenochtitlan and tracks political consolidation.",
+      "coderID": "AS"
+    }
+  ]
+}

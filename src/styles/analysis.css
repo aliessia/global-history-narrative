@@ -1,0 +1,411 @@
+/* ============================================================
+   ANALYSIS MODE — Visual grammar for world-distortion
+   Rule: interface must feel like examining how that world was reduced
+   Curricular data, metrics, silence fully visible
+   ============================================================ */
+
+@import './variables.css';
+
+/* ── BASE ── */
+.analysis-mode {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--analysis-bg);
+}
+
+/* Basemap desaturated — data is foreground */
+.analysis-mode .leaflet-tile-pane {
+  filter: grayscale(0.65) contrast(0.82) brightness(0.72);
+}
+
+/* No terrain displacement in analysis — precision over atmosphere */
+.analysis-mode .leaflet-overlay-pane {
+  filter: none;
+}
+
+/* ── TOP BAR ── */
+.analysis-topbar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: var(--z-ui);
+  padding: 14px 28px;
+  background: rgba(10, 14, 32, 0.94);
+  border-bottom: 0.5px solid rgba(80, 80, 140, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.analysis-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(200, 210, 220, 0.45);
+}
+
+/* ── STATS ROW (analysis only) ── */
+.analysis-stats {
+  display: flex;
+  gap: 10px;
+}
+
+.analysis-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  background: rgba(255,255,255,0.03);
+  border: 0.5px solid var(--analysis-border);
+  border-radius: var(--r-sm);
+}
+
+.analysis-stat__n {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2px;
+}
+
+.analysis-stat__n.absent  { color: var(--analysis-absent); }
+.analysis-stat__n.covered { color: var(--analysis-covered); }
+.analysis-stat__n.partial { color: var(--analysis-partial); }
+.analysis-stat__n.pending { color: var(--analysis-pending); }
+
+.analysis-stat__l {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--analysis-text-dim);
+}
+
+/* ── CCSR BADGE ── */
+.ccsr-badge {
+  position: absolute;
+  top: 62px;
+  right: 28px;
+  z-index: var(--z-ui);
+  background: rgba(8, 12, 20, 0.88);
+  border: 0.5px solid rgba(200, 144, 58, 0.22);
+  border-radius: var(--r-md);
+  padding: 14px 18px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: border-color var(--t-short);
+}
+.ccsr-badge:hover {
+  border-color: rgba(200, 144, 58, 0.45);
+}
+
+.ccsr-badge__eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(200, 144, 58, 0.38);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.ccsr-badge__number {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--analysis-accent);
+  line-height: 1;
+  display: block;
+}
+
+.ccsr-badge__foot {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5px;
+  letter-spacing: 0.10em;
+  color: rgba(200, 144, 58, 0.30);
+  display: block;
+  margin-top: 5px;
+}
+
+/* ── CORPUS LEGEND ── */
+.corpus-legend {
+  position: absolute;
+  bottom: 58px;
+  left: 28px;
+  z-index: var(--z-ui);
+  background: rgba(8, 12, 20, 0.88);
+  border: 0.5px solid var(--analysis-border);
+  border-radius: var(--r-md);
+  padding: 14px 18px;
+  backdrop-filter: blur(10px);
+}
+
+.corpus-legend__head {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(200, 144, 58, 0.35);
+  margin-bottom: 12px;
+}
+
+.corpus-legend__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+.corpus-legend__swatch {
+  width: 28px;
+  height: 11px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.corpus-legend__label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.5px;
+  color: var(--analysis-text-dim);
+  letter-spacing: 0.04em;
+}
+
+/* ── CORPUS FOOTER (source chips, analysis only) ── */
+.corpus-footer {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  z-index: var(--z-ui);
+  padding: 7px 28px;
+  background: rgba(6, 9, 14, 0.92);
+  border-top: 0.5px solid var(--analysis-border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.corpus-footer__label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(200, 144, 58, 0.28);
+  flex-shrink: 0;
+}
+
+.corpus-footer__chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.source-chip {
+  padding: 3px 10px;
+  background: rgba(255,255,255,0.025);
+  border: 0.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--r-sm);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.5px;
+  color: rgba(200,180,140,0.28);
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: all var(--t-short);
+}
+.source-chip:hover {
+  background: rgba(200,144,58,0.06);
+  border-color: rgba(200,144,58,0.18);
+  color: rgba(200,180,140,0.55);
+}
+.source-chip.active {
+  background: rgba(200,144,58,0.10);
+  border-color: rgba(200,144,58,0.30);
+  color: rgba(200, 144, 58, 0.75);
+}
+
+/* ── HEATMAP MODE SELECTOR ── */
+.heatmap-controls {
+  position: absolute;
+  top: 62px;
+  left: 28px;
+  z-index: var(--z-ui);
+  background: rgba(8, 12, 20, 0.88);
+  border: 0.5px solid var(--analysis-border);
+  border-radius: var(--r-md);
+  padding: 12px 14px;
+  backdrop-filter: blur(10px);
+}
+
+.heatmap-controls__head {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--analysis-text-dim);
+  margin-bottom: 10px;
+}
+
+.heatmap-mode-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 7px 10px;
+  margin-bottom: 3px;
+  background: transparent;
+  border: 0.5px solid transparent;
+  border-radius: var(--r-sm);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.5px;
+  letter-spacing: 0.06em;
+  color: var(--analysis-text-dim);
+  cursor: pointer;
+  transition: all var(--t-short);
+}
+.heatmap-mode-btn:hover {
+  background: rgba(255,255,255,0.03);
+  color: var(--analysis-text);
+}
+.heatmap-mode-btn.active {
+  background: rgba(200,144,58,0.08);
+  border-color: rgba(200,144,58,0.2);
+  color: var(--analysis-accent);
+}
+
+/* ── ANALYTICS PANEL ── */
+.analytics-panel {
+  position: absolute;
+  right: 0; top: 48px; bottom: 52px;
+  width: 340px;
+  z-index: var(--z-worldlayer);
+  background: rgba(8, 12, 20, 0.94);
+  border-left: 0.5px solid var(--analysis-border);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200,144,58,0.12) transparent;
+  padding: 24px 22px;
+}
+.analytics-panel::-webkit-scrollbar { width: 3px; }
+.analytics-panel::-webkit-scrollbar-thumb { background: rgba(200,144,58,0.12); }
+
+.analytics-panel__section { margin-bottom: 32px; }
+
+.analytics-panel__head {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--analysis-text-dim);
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid var(--analysis-border);
+}
+
+/* CAS chart bar */
+.cas-bar-wrap {
+  margin-bottom: 8px;
+}
+.cas-bar-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  color: var(--analysis-text-dim);
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.cas-bar-track {
+  height: 8px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+}
+.cas-bar-segment { height: 100%; transition: width 0.4s ease; }
+
+/* RTCD chart */
+.rtcd-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+.rtcd-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  color: var(--analysis-text-dim);
+  width: 90px;
+  flex-shrink: 0;
+}
+.rtcd-track {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.rtcd-fill {
+  height: 100%;
+  background: rgba(200,144,58,0.5);
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+.rtcd-pct {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  color: rgba(200,144,58,0.5);
+  width: 28px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* Analysis tooltip (diagnostic, not atmospheric) */
+.analysis-tooltip {
+  position: fixed;
+  z-index: var(--z-modal);
+  background: rgba(10, 14, 38, 0.97);
+  border: 0.5px solid rgba(80, 80, 140, 0.22);
+  border-radius: var(--r-md);
+  padding: 14px 18px;
+  max-width: 280px;
+  pointer-events: none;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.analysis-tooltip__status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+  font-size: 8.5px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+}
+.analysis-tooltip__dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.analysis-tooltip__name {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(200, 210, 220, 0.85);
+  margin-bottom: 4px;
+}
+.analysis-tooltip__si {
+  font-size: 8.5px;
+  letter-spacing: 0.06em;
+  color: var(--analysis-text-dim);
+  margin-bottom: 8px;
+}
+.analysis-tooltip__sources {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.analysis-tooltip__source-row {
+  font-size: 8px;
+  color: rgba(200,180,140,0.38);
+  letter-spacing: 0.03em;
+}

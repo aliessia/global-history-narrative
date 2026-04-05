@@ -1,0 +1,476 @@
+{
+  "mali-empire": {
+    "slug": "mali-empire",
+    "name": "Mali Empire",
+    "period": "1235–1468 CE",
+    "modernLocation": "Mali, Senegal, Guinea, Gambia, Mauritania",
+    "dataStatus": "real",
+    "description": "The dominant power of medieval West Africa, the Mali Empire controlled the trans-Saharan gold and salt trade routes linking sub-Saharan Africa to the Mediterranean world. One of the wealthiest and most administratively sophisticated states of the 13th century.",
+    "narrative": "The Mali Empire emerged from the ruins of Ghana in the early 13th century, when Sundiata Keita, a Mandé prince, defeated the Sosso king Sumanguru Kanté at the Battle of Kirina around 1235. The empire's wealth rested on its control of the goldfields of Bambuk and Bure and the Saharan salt mines of Taghaza, channelled through the Niger River trade system. The cities of Niani, Timbuktu, Djenné, and Gao became centres of Islamic scholarship, architecture, and long-distance commerce. Merchants from Morocco, Egypt, and the Italian city-states were drawn into this network. Under Mansa Musa (1312–1337), whose pilgrimage to Mecca reportedly depressed Mediterranean gold prices for over a decade, the empire reached its greatest international visibility. What is remarkable — and what is absent from most global history curricula — is that this civilization was not a marginal periphery but a central node of the 13th-century world economy, as well-documented as Venice or the Holy Roman Empire in contemporary Arabic sources.",
+    "connections": [
+      {
+        "slug": "republic-of-venice",
+        "type": "trade",
+        "label": "Trade",
+        "note": "Venetian merchants purchased West African gold through North African intermediaries — Mali gold funded Renaissance Europe"
+      },
+      {
+        "slug": "republic-of-genoa",
+        "type": "trade",
+        "label": "Trade",
+        "note": "Genoese traders at the North African entrepôts were among the primary buyers of Malian gold dust"
+      },
+      {
+        "slug": "mamluk-sultanate",
+        "type": "diplomacy",
+        "label": "Diplomacy",
+        "note": "Mansa Musa's 1324 pilgrimage to Mecca passed through Mamluk-controlled Cairo; he met the sultan and spent lavishly"
+      },
+      {
+        "slug": "songhai-empire",
+        "type": "conflict",
+        "label": "Rivalry",
+        "note": "Songhay served as a vassal state under Mali before eventually absorbing its eastern territories in the 15th century"
+      }
+    ],
+    "events": [
+      {
+        "year": 1235,
+        "label": "Sundiata Keita defeats Sumanguru Kanté at the Battle of Kirina, founding the Mali Empire",
+        "category": "military"
+      },
+      {
+        "year": 1240,
+        "label": "Mali conquers Kumbi Saleh, the former capital of the Ghana Empire, completing its western expansion",
+        "category": "political"
+      },
+      {
+        "year": 1255,
+        "label": "Death of Sundiata Keita. The empire consolidates across the Niger Bend under his successors",
+        "category": "political"
+      },
+      {
+        "year": 1285,
+        "label": "Sakura, a freed slave, seizes power and extends Mali's reach toward the Atlantic coast",
+        "category": "political"
+      },
+      {
+        "year": 1307,
+        "label": "Mansa Musa I ascends to the throne, beginning the empire's golden age of scholarship and trade",
+        "category": "political"
+      },
+      {
+        "year": 1324,
+        "label": "Mansa Musa departs on pilgrimage to Mecca with 60,000 people and 12 tonnes of gold, reshaping Mediterranean economics",
+        "category": "economic"
+      }
+    ],
+    "themes": [
+      "trans-Saharan gold",
+      "Islamic scholarship",
+      "Saharan trade infrastructure",
+      "West African urbanism"
+    ]
+  },
+  "delhi-sultanate": {
+    "slug": "delhi-sultanate",
+    "name": "Delhi Sultanate",
+    "period": "1206–1526 CE",
+    "modernLocation": "Northern India, Pakistan, Bangladesh",
+    "dataStatus": "real",
+    "description": "Founded in 1206 by Qutb al-Din Aibak, a former slave-soldier of the Ghurid dynasty, the Delhi Sultanate was the first major Islamic state in South Asia. It developed distinctive administrative, architectural, and legal institutions blending Turkic, Persian, and Indian traditions.",
+    "narrative": "Qutb al-Din Aibak, who had served as a general under Muhammad of Ghor, declared himself sultan upon his master's assassination in 1206. The Qutb Minar, begun under Aibak and completed under his successor Iltutmish, remains one of the tallest brick minarets in the world — an immediate architectural assertion of the new order's ambitions. Under Iltutmish (1211–1236), the Sultanate gained recognition from the Abbasid Caliph in Baghdad and survived the first Mongol incursions. His daughter Razia Sultana (1236–1240), the first female ruler of a major Islamic state in South Asia, governed effectively despite sustained opposition from the Turkish military aristocracy. The iqta land system — distributing revenue-collection rights to military commanders — was a sophisticated solution to governing a vast territory without a fully monetized economy. The Delhi Sultanate's history is notable for what it was not: not a simple conquest state but a complex hybrid polity where Persian was the court language, Islamic law the legal framework, and Indian administrative practice the daily reality for most of the population.",
+    "connections": [
+      {
+        "slug": "ilkhanate",
+        "type": "conflict",
+        "label": "Shared Threat",
+        "note": "Both the Delhi Sultanate and the Ilkhanate faced the advance of the central Mongol khanate; the Sultanate successfully repelled Mongol raids"
+      },
+      {
+        "slug": "golden-horde",
+        "type": "migration",
+        "label": "Refuge",
+        "note": "Thousands of artisans, scholars, and soldiers fled Mongol-controlled Central Asia to the Delhi Sultanate, transforming its culture"
+      },
+      {
+        "slug": "mamluk-sultanate",
+        "type": "religion",
+        "label": "Islamic World",
+        "note": "Both states maintained correspondence as part of the broader Sunni Islamic diplomatic network; the Mamluks were the most prestigious Islamic power of the era"
+      },
+      {
+        "slug": "song-china",
+        "type": "trade",
+        "label": "Ocean Trade",
+        "note": "Indian Ocean merchants connected the Delhi Sultanate's ports to Song China's vast commercial network via Gujarat and the Malabar coast"
+      }
+    ],
+    "events": [
+      {
+        "year": 1206,
+        "label": "Qutb al-Din Aibak founds the Delhi Sultanate, the first independent Islamic state in South Asia",
+        "category": "political"
+      },
+      {
+        "year": 1210,
+        "label": "Construction of the Qutb Minar begins — the tallest minaret of the medieval Islamic world at 72.5 metres",
+        "category": "cultural"
+      },
+      {
+        "year": 1211,
+        "label": "Iltutmish centralises the Sultanate and gains recognition from the Abbasid Caliph in Baghdad",
+        "category": "political"
+      },
+      {
+        "year": 1221,
+        "label": "Chinggis Khan's armies reach the Indus but withdraw — the Sultanate narrowly survives its first Mongol encounter",
+        "category": "military"
+      },
+      {
+        "year": 1236,
+        "label": "Razia Sultana becomes sultan — the first woman to rule a major Islamic state, dispensing with purdah and holding public court",
+        "category": "political"
+      },
+      {
+        "year": 1296,
+        "label": "Alauddin Khalji introduces price controls across the empire — fixing the cost of grain, cattle, and cloth",
+        "category": "economic"
+      }
+    ],
+    "themes": [
+      "Mongol resistance",
+      "Islamic governance",
+      "South Asian trade",
+      "slave-soldier system",
+      "Persian court culture"
+    ]
+  },
+  "golden-horde": {
+    "slug": "golden-horde",
+    "name": "Golden Horde",
+    "period": "1241–1502 CE",
+    "modernLocation": "Russia, Ukraine, Kazakhstan, Moldova",
+    "dataStatus": "real",
+    "description": "The westernmost Mongol successor state, the Golden Horde controlled the Eurasian steppe from the Carpathians to the Urals. Under Batu Khan and his successors, it became a sophisticated multi-ethnic empire and a major node in the Eurasian long-distance trade network.",
+    "narrative": "European historiography has consistently framed the Golden Horde as a destructive invading force — and the devastation of the 1237–1242 campaigns was real and catastrophic. But the polity that emerged from those conquests was something quite different: a functioning state with capital cities, a sophisticated administrative apparatus, and an economy that channelled the full length of the Eurasian trade system. The city of Saray Batu on the lower Volga was one of the largest cities in the world in the 1260s, with a cosmopolitan population including Mongols, Kipchak Turks, Alans, Russians, and Italian merchants from Genoa and Venice. Under Berke Khan (r. 1257–1266), the Horde converted to Islam and formed a remarkable diplomatic alliance with the Mamluk Sultanate of Egypt against their common enemy, the Ilkhanate of Persia. This trans-Eurasian alliance — connecting the western steppe to Egypt — is almost entirely absent from European textbook narratives. The Pax Mongolica that the Horde helped maintain made possible Marco Polo's journeys and, later, facilitated the spread of the Black Death. The Horde's history is inseparable from both of those enormously consequential events.",
+    "connections": [
+      {
+        "slug": "republic-of-venice",
+        "type": "trade",
+        "label": "Trade Colony",
+        "note": "Venice maintained permanent trading colonies at Tana and Caffa inside Horde territory, exporting Eurasian goods to the Mediterranean"
+      },
+      {
+        "slug": "republic-of-genoa",
+        "type": "trade",
+        "label": "Trade Colony",
+        "note": "Genoa's colony at Caffa (modern Feodosia) in Crimea was established with Horde permission and became its most profitable overseas possession"
+      },
+      {
+        "slug": "ilkhanate",
+        "type": "conflict",
+        "label": "Civil War",
+        "note": "The Golden Horde and the Ilkhanate fought a series of wars over the Caucasus — Mongol against Mongol across the Islamic world"
+      },
+      {
+        "slug": "mamluk-sultanate",
+        "type": "diplomacy",
+        "label": "Alliance",
+        "note": "Under Berke Khan, the Horde formed a strategic alliance with the Mamluk Sultanate against the Ilkhanate — a correspondence preserved in Arabic"
+      },
+      {
+        "slug": "novgorod-republic",
+        "type": "conflict",
+        "label": "Tributary",
+        "note": "Novgorod paid tribute to the Horde but was never militarily occupied, preserving its commercial republic and Hanseatic connections"
+      }
+    ],
+    "events": [
+      {
+        "year": 1237,
+        "label": "Batu Khan's armies invade the Rus' principalities, sacking Ryazan, Vladimir, and Moscow",
+        "category": "military"
+      },
+      {
+        "year": 1240,
+        "label": "Kiev falls to the Mongols. Contemporary accounts describe the city reduced to 200 houses",
+        "category": "military"
+      },
+      {
+        "year": 1242,
+        "label": "Batu Khan establishes his court on the lower Volga; the ulus of Jochi becomes effectively independent",
+        "category": "political"
+      },
+      {
+        "year": 1257,
+        "label": "Berke Khan converts to Islam — the first Mongol ruler to do so — and realigns the Horde diplomatically",
+        "category": "cultural"
+      },
+      {
+        "year": 1263,
+        "label": "Formal alliance with the Mamluk Sultanate established against the Ilkhanate — diplomatic correspondence still extant",
+        "category": "diplomacy"
+      },
+      {
+        "year": 1266,
+        "label": "Genoa receives a charter to operate a trading colony at Caffa in Crimea — a fulcrum of Eurasian commerce",
+        "category": "economic"
+      }
+    ],
+    "themes": [
+      "Mongol expansion",
+      "Eurasian steppe commerce",
+      "Islamic conversion",
+      "Pax Mongolica",
+      "nomadic governance"
+    ]
+  },
+  "japan": {
+    "slug": "japan",
+    "name": "Kamakura Shogunate",
+    "period": "1185–1333 CE",
+    "modernLocation": "Japan",
+    "dataStatus": "real",
+    "description": "Japan's first military government, the Kamakura Shogunate established the template of samurai rule that defined Japanese politics for seven centuries. It governed alongside the imperial court through a feudal system of land grants and loyalty, and repelled two of the largest naval invasions in medieval history.",
+    "narrative": "In 1185, Minamoto no Yoritomo established military headquarters at Kamakura after defeating the rival Taira clan. In 1192, the Emperor conferred on him the title of Shogun, and a new form of government was institutionalised — the bakufu (tent government) — which operated in parallel to the imperial court in Kyoto without displacing it. After Yoritomo's death, real power passed to the Hojo clan, who governed as regents to successive shoguns. The Kamakura period produced the Joei Code (1232), Japan's first written legal code for the warrior class, and saw the consolidation of new Buddhist movements — Zen, Pure Land, Nichiren — accessible to commoners rather than just the court aristocracy. The period's defining international crisis came with two Mongol invasions ordered by Kublai Khan: in 1274 (40,000 troops, repelled partly by a storm) and 1281 (140,000 troops, the largest seaborne invasion before D-Day, destroyed by a typhoon the Japanese called kamikaze). The cost of organising these defenses without the normal reward of captured territory fatally weakened the Kamakura government, which fell in 1333. The Mongol invasions are the moment when the 13th-century world system made direct, violent contact with Japan.",
+    "connections": [
+      {
+        "slug": "yuan-dynasty",
+        "type": "conflict",
+        "label": "Invasion",
+        "note": "Kublai Khan's Yuan Dynasty launched two massive invasions of Japan in 1274 and 1281 — both ultimately repelled"
+      },
+      {
+        "slug": "goryeo",
+        "type": "conflict",
+        "label": "Shared Threat",
+        "note": "Goryeo Korea, under Mongol domination, was forced to supply ships and troops for both invasions of Japan"
+      },
+      {
+        "slug": "song-china",
+        "type": "trade",
+        "label": "Buddhism & Trade",
+        "note": "Japanese Zen Buddhism was transmitted from Song China; Japanese monks travelled to Chinese monasteries throughout this period"
+      }
+    ],
+    "events": [
+      {
+        "year": 1185,
+        "label": "Battle of Dan-no-ura: Minamoto no Yoritomo destroys the Taira fleet, winning control of Japan",
+        "category": "military"
+      },
+      {
+        "year": 1192,
+        "label": "The Emperor grants Yoritomo the title of Seii Taishogun, institutionalising the first samurai government",
+        "category": "political"
+      },
+      {
+        "year": 1221,
+        "label": "The Jokyu War: the Hojo regency crushes Emperor Go-Toba's attempt to restore imperial power",
+        "category": "military"
+      },
+      {
+        "year": 1232,
+        "label": "The Joei Code: Japan's first written legal code for the warrior class, establishing samurai rights and obligations",
+        "category": "political"
+      },
+      {
+        "year": 1274,
+        "label": "First Mongol invasion: 40,000 troops land at Hakata Bay; a storm destroys part of the fleet and forces withdrawal",
+        "category": "military"
+      },
+      {
+        "year": 1281,
+        "label": "Second Mongol invasion: 140,000 troops in 4,400 ships — the largest medieval seaborne force — destroyed by typhoon",
+        "category": "military"
+      }
+    ],
+    "themes": [
+      "Mongol expansion",
+      "samurai culture",
+      "Buddhist transmission",
+      "feudal governance"
+    ]
+  },
+  "song-china": {
+    "slug": "song-china",
+    "name": "Southern Song Dynasty",
+    "period": "1127–1279 CE",
+    "modernLocation": "Southern China",
+    "dataStatus": "real",
+    "description": "The Southern Song Dynasty governed from Hangzhou after losing northern China to the Jurchen Jin. It presided over what historians now call China's medieval economic revolution — paper money, gunpowder weapons, mechanical printing, and the world's most sophisticated commercial economy of the period.",
+    "narrative": "After the Jurchen Jin Dynasty seized the northern Song capital Kaifeng in 1127, the court retreated south of the Yangtze River and established a new capital at Lin'an (modern Hangzhou). Contemporary observers described it as the greatest city on earth — Marco Polo, visiting after the conquest, called it 'the most noble city in the world.' The Song economy was extraordinary by any pre-modern standard: paper money had been in circulation since the 10th century; state ironworks produced more iron annually than 18th-century Britain; and the commercialised rice paddies of the Yangtze delta fed a population of perhaps 60–80 million. Naval technology — including the magnetic compass and watertight bulkheads in ocean-going junks — made Chinese merchants the dominant force in the Indian Ocean trade from Zanzibar to Japan. The Song court was also a centre of sophisticated intellectual culture: landscape painting reached its classical forms, Neo-Confucianism was systematised by Zhu Xi, and the civil examination system produced a meritocratic bureaucracy of a kind unknown in the contemporary European world. This civilization was absorbed by the Mongols not through a single decisive battle but through a 45-year war of attrition that ended only in 1279.",
+    "connections": [
+      {
+        "slug": "yuan-dynasty",
+        "type": "conflict",
+        "label": "Conquest",
+        "note": "The Yuan Dynasty (Mongol China) spent 45 years conquering the Southern Song — the final naval battle of Yamen in 1279 ended the dynasty"
+      },
+      {
+        "slug": "japan",
+        "type": "trade",
+        "label": "Buddhism & Trade",
+        "note": "Song China was the source of Japanese Zen Buddhism, ceramics, and copper coins — a cultural and commercial relationship of exceptional depth"
+      },
+      {
+        "slug": "delhi-sultanate",
+        "type": "trade",
+        "label": "Ocean Trade",
+        "note": "Chinese junks regularly called at Indian Ocean ports, connecting Song China's export economy to South and West Asia"
+      },
+      {
+        "slug": "mali-empire",
+        "type": "trade",
+        "label": "World System",
+        "note": "Song China's commercial economy was the eastern pole of the 13th-century world system; Mali's gold was the western pole — they were indirectly connected"
+      }
+    ],
+    "events": [
+      {
+        "year": 1127,
+        "label": "The Jurchen Jin sack Kaifeng; the Song court flees south and establishes a new capital at Hangzhou",
+        "category": "military"
+      },
+      {
+        "year": 1161,
+        "label": "Battle of Caishi: Song naval forces using fire bombs defeat a Jin invasion fleet on the Yangtze",
+        "category": "military"
+      },
+      {
+        "year": 1234,
+        "label": "Song China and the Mongols jointly defeat the Jin Dynasty — Song then refuses to cede territory promised, triggering the Mongol-Song War",
+        "category": "political"
+      },
+      {
+        "year": 1267,
+        "label": "Kublai Khan begins the siege of Xiangyang — the five-year siege that broke the Song defensive system",
+        "category": "military"
+      },
+      {
+        "year": 1275,
+        "label": "The Mongol armies cross the Yangtze. Hangzhou, the world's largest city, surrenders without major resistance",
+        "category": "political"
+      },
+      {
+        "year": 1279,
+        "label": "Battle of Yamen: the last Song emperor, a seven-year-old child, drowns as his court flees the final Mongol naval assault",
+        "category": "military"
+      }
+    ],
+    "themes": [
+      "Mongol expansion",
+      "proto-industrial economy",
+      "paper money",
+      "ocean trade",
+      "Buddhist transmission"
+    ]
+  },
+  "novgorod-republic": {
+    "slug": "novgorod-republic",
+    "name": "Novgorod Republic",
+    "period": "1136–1478 CE",
+    "modernLocation": "Northwestern Russia",
+    "dataStatus": "real",
+    "description": "The Novgorod Republic was a merchant oligarchy and the most commercially sophisticated state of medieval Rus'. It maintained its independence from the Golden Horde through tribute and alliance while participating actively in the Hanseatic trade network.",
+    "connections": [
+      {
+        "slug": "hanseatic-league",
+        "type": "trade",
+        "label": "Hanseatic Trade",
+        "note": "Novgorod hosted the Peterhof, a major Hanseatic trading post — it was the eastern terminus of the Baltic-North Sea commercial network"
+      },
+      {
+        "slug": "golden-horde",
+        "type": "conflict",
+        "label": "Tributary",
+        "note": "Novgorod paid tribute to the Horde but was never occupied — Alexander Nevsky negotiated this arrangement in 1252"
+      }
+    ],
+    "events": [
+      {
+        "year": 1136,
+        "label": "Novgorod expels its prince and establishes a veche-governed republic under boyar merchant control",
+        "category": "political"
+      },
+      {
+        "year": 1240,
+        "label": "Alexander Nevsky defeats a Swedish invasion force on the Neva River — his epithet commemorates this victory",
+        "category": "military"
+      },
+      {
+        "year": 1242,
+        "label": "Battle on the Ice: Alexander Nevsky defeats the Livonian Knights on Lake Peipus, ending German crusading pressure",
+        "category": "military"
+      },
+      {
+        "year": 1260,
+        "label": "Novgorod formally joins the Hanseatic League, connecting Rus' to the broader Baltic commercial network",
+        "category": "economic"
+      }
+    ],
+    "themes": [
+      "Baltic commerce",
+      "Hanseatic network",
+      "Mongol pressure",
+      "Orthodox culture"
+    ]
+  },
+  "republic-of-venice": {
+    "slug": "republic-of-venice",
+    "name": "Republic of Venice",
+    "period": "697–1797 CE",
+    "modernLocation": "Italy (Venice, Veneto)",
+    "dataStatus": "real",
+    "description": "The Republic of Venice was the dominant maritime commercial power of the medieval Mediterranean. By the 13th century, it controlled the most sophisticated banking and insurance systems in the world, an overseas empire of trading posts from the Adriatic to the Black Sea, and the most powerful naval fleet in the Mediterranean.",
+    "connections": [
+      {
+        "slug": "golden-horde",
+        "type": "trade",
+        "label": "Trade Colony",
+        "note": "Venice maintained the colony of Tana at the mouth of the Don River, inside Horde territory — a gateway to Central Asian trade"
+      },
+      {
+        "slug": "mali-empire",
+        "type": "trade",
+        "label": "Gold Trade",
+        "note": "Venetian merchants purchased West African gold through North African intermediaries — Mali gold financed the Venetian mint"
+      },
+      {
+        "slug": "mamluk-sultanate",
+        "type": "trade",
+        "label": "Spice Trade",
+        "note": "Venice held a near-monopoly on European access to Mamluk-controlled Alexandrian spice markets"
+      }
+    ],
+    "events": [
+      {
+        "year": 1204,
+        "label": "The Fourth Crusade, diverted by Venice, sacks Constantinople — Venice acquires its eastern empire",
+        "category": "military"
+      },
+      {
+        "year": 1261,
+        "label": "Genoa helps restore the Byzantine Empire; Venice loses its Constantinople trading privileges to its rival",
+        "category": "political"
+      },
+      {
+        "year": 1271,
+        "label": "Marco Polo departs Venice with his father for Kublai Khan's court — the journey lasts 24 years",
+        "category": "cultural"
+      },
+      {
+        "year": 1298,
+        "label": "Venice defeated by Genoa at the Battle of Curzola; Marco Polo, captured, dictates his travels in prison",
+        "category": "military"
+      }
+    ],
+    "themes": [
+      "Mediterranean commerce",
+      "trans-Saharan gold",
+      "Crusade economics",
+      "Byzantine heritage"
+    ]
+  }
+}

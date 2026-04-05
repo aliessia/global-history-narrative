@@ -1,0 +1,192 @@
+{
+  "mali-empire": [
+    {
+      "author": "Nehemia Levtzion",
+      "year": 1973,
+      "title": "Ancient Ghana and Mali",
+      "journal": "Methuen, London",
+      "url": "https://www.worldcat.org/title/ancient-ghana-and-mali/oclc/802826",
+      "openAccess": false,
+      "summary": "The foundational scholarly account of the Mali Empire, drawing on Arabic sources including al-Umari, Ibn Battuta, and Ibn Khaldun. Establishes the chronology of the Keita dynasty and the economic infrastructure of trans-Saharan trade.",
+      "keyClaims": [
+        "The Mali Empire was one of the wealthiest states of the medieval world, controlling roughly half of the world's known gold supply in the 13th–14th centuries",
+        "Timbuktu and Djenné functioned as major centres of Islamic scholarship with universities attracting students from North Africa and the Middle East",
+        "The empire's administrative structure was more sophisticated than most contemporary European states"
+      ],
+      "silenceNote": "Levtzion's documentation of a state with complex legal, administrative, and economic institutions makes its absence from most global history curricula a methodological choice, not an absence of evidence."
+    },
+    {
+      "author": "Nehemia Levtzion & J.F.P. Hopkins (eds.)",
+      "year": 1981,
+      "title": "Corpus of Early Arabic Sources for West African History",
+      "journal": "Cambridge University Press",
+      "url": "https://doi.org/10.1017/CBO9780511563997",
+      "openAccess": false,
+      "summary": "The essential primary source collection for the Mali Empire, compiling accounts by al-Bakri, al-Umari, Ibn Battuta, and others. Documents the empire's extent, administration, and international connections in contemporary voices.",
+      "keyClaims": [
+        "Al-Umari's account of Mansa Musa's 1324 pilgrimage describes a gift-giving so extravagant it caused monetary inflation across Egypt and the Levant",
+        "Ibn Battuta's 1352 visit describes a sophisticated legal system and a level of personal safety he found exceptional by the standards of his time"
+      ],
+      "silenceNote": "The richness of the Arabic source corpus for Mali — far exceeding what exists for many regions routinely taught in global history — makes its curricular absence a choice about whose documentation counts as valid historical evidence."
+    },
+    {
+      "author": "David C. Conrad",
+      "year": 2010,
+      "title": "Empires of Medieval West Africa: Ghana, Mali, and Songhay",
+      "journal": "Chelsea House Publishers",
+      "url": "https://www.worldcat.org/title/empires-of-medieval-west-africa/oclc/317920462",
+      "openAccess": false,
+      "summary": "A synthetic overview emphasising oral tradition and the Sunjata epic alongside Arabic written sources. Reconstructs the social and cultural history of the empire beyond political events.",
+      "keyClaims": [
+        "The Sunjata epic, preserved in oral tradition by griots, is one of the most sophisticated narrative traditions in medieval world history",
+        "The empire's prosperity rested not on conquest but on the control of trade infrastructure — a fundamentally commercial rather than military state"
+      ],
+      "silenceNote": "The emphasis on oral tradition as legitimate historical evidence directly challenges the written-source bias that leads European curricula to overlook West African history."
+    }
+  ],
+
+  "delhi-sultanate": [
+    {
+      "author": "Peter Jackson",
+      "year": 1999,
+      "title": "The Delhi Sultanate: A Political and Military History",
+      "journal": "Cambridge University Press",
+      "url": "https://doi.org/10.1017/CBO9780511524943",
+      "openAccess": false,
+      "summary": "The definitive political history of the Sultanate from its foundation through the Tughluq period. Exceptional on the Mongol threat and the Sultanate's structural responses to it.",
+      "keyClaims": [
+        "The Delhi Sultanate successfully resisted the Mongol invasions that destroyed every other major Islamic state from the Abbasid Caliphate to the Seljuks",
+        "The slave-soldier (mamluk) system produced several of the most capable rulers of the medieval Islamic world, including the remarkable Razia Sultana",
+        "The iqta system of land grants was a sophisticated administrative innovation that was later adopted by the Mughals"
+      ],
+      "silenceNote": "Jackson's account of a state that successfully resisted the Mongol advance — the defining crisis of 13th-century Eurasia — makes its absence from global curricula that teach the Mongol conquests extensivelyparticularly notable."
+    },
+    {
+      "author": "Sunil Kumar",
+      "year": 2007,
+      "title": "The Emergence of the Delhi Sultanate, 1192–1286",
+      "journal": "Permanent Black, Delhi",
+      "url": "https://www.worldcat.org/title/emergence-of-the-delhi-sultanate/oclc/77012741",
+      "openAccess": false,
+      "summary": "A revisionist account emphasising the hybrid and negotiated nature of Sultanate governance, challenging the idea of a simple 'Islamic conquest' of India. Uses Persian chronicles and inscriptional evidence.",
+      "keyClaims": [
+        "The Sultanate governed a predominantly Hindu population through accommodation and negotiation rather than systematic conversion or destruction",
+        "The Persian administrative culture of the court coexisted with Indian bureaucratic traditions at the local level",
+        "Razia Sultana's reign demonstrates the extent to which gender was a contested category within Sultanate political culture"
+      ],
+      "silenceNote": "Kumar's emphasis on negotiation and hybridity directly contradicts the conquest-and-destruction framing common in the few curricula that mention the Delhi Sultanate at all."
+    },
+    {
+      "author": "Cynthia Talbot",
+      "year": 1995,
+      "title": "Inscribing the Other, Inscribing the Self: Hindu-Muslim Identities in Pre-colonial India",
+      "journal": "Comparative Studies in Society and History, 37(4), 692–722",
+      "url": "https://doi.org/10.1017/S0010417500019927",
+      "openAccess": false,
+      "summary": "Analyses Telugu inscriptions to show how Hindu elites in Delhi Sultanate territory understood and negotiated their relationship with the new Islamic ruling class — a view from below the court chronicles.",
+      "keyClaims": [
+        "Hindu responses to the Sultanate were far more varied than simple resistance or submission — many elites found ways to collaborate and prosper",
+        "The category of 'Hindu-Muslim conflict' was not how contemporaries primarily understood their social world"
+      ],
+      "silenceNote": "Talbot's bottom-up perspective challenges the 'clash of civilizations' framing that occasionally appears when the Delhi Sultanate is mentioned in textbooks — the actual historical record shows negotiation more than confrontation."
+    }
+  ],
+
+  "golden-horde": [
+    {
+      "author": "Charles J. Halperin",
+      "year": 1985,
+      "title": "Russia and the Golden Horde: The Mongol Impact on Medieval Russian History",
+      "journal": "Indiana University Press",
+      "url": "https://www.worldcat.org/title/russia-and-the-golden-horde/oclc/11738993",
+      "openAccess": false,
+      "summary": "A foundational reappraisal of the relationship between the Mongol Golden Horde and the Russian principalities, arguing for a more nuanced model than either simple conquest or cultural annihilation.",
+      "keyClaims": [
+        "The Russian principalities preserved significant administrative autonomy under the Horde — the relationship was tributary rather than directly colonial",
+        "Mongol administrative innovations were adopted by Russian rulers and shaped the development of Muscovite autocracy",
+        "The 'Tatar yoke' concept was largely a 19th-century nationalist construction; contemporaries had more complex understandings"
+      ],
+      "silenceNote": "Halperin's reframing is directly relevant to curricular analysis: the few curricula that mention the Golden Horde almost universally use the 'Mongol devastation' frame that Halperin critiques."
+    },
+    {
+      "author": "Marie Favereau",
+      "year": 2021,
+      "title": "The Horde: How the Mongols Changed the World",
+      "journal": "Belknap Press / Harvard University Press",
+      "url": "https://doi.org/10.4159/9780674268241",
+      "openAccess": false,
+      "summary": "The most comprehensive recent study of the Golden Horde as a state, drawing on Mongolian, Persian, Arabic, Russian, and Latin sources. Demonstrates the Horde's sophistication as a commercial and administrative empire.",
+      "keyClaims": [
+        "The Golden Horde was not primarily a destructive force but a commercial empire that actively fostered long-distance trade across Eurasia",
+        "The Horde's Islamic conversion under Berke Khan reshaped the entire geopolitical map of the Middle East through its alliance with the Mamluks",
+        "Saray Batu was one of the most cosmopolitan cities in the 13th-century world, with mosques, Orthodox churches, Buddhist temples, and Nestorian churches coexisting"
+      ],
+      "silenceNote": "Favereau's account of a cosmopolitan, commercially sophisticated empire is entirely absent from the curricula that do mention the Mongols — which focus exclusively on military campaigns."
+    }
+  ],
+
+  "japan": [
+    {
+      "author": "Thomas D. Conlan",
+      "year": 2001,
+      "title": "In Little Need of Divine Intervention: Takezaki Suenaga's Scrolls of the Mongol Invasions of Japan",
+      "journal": "Cornell University East Asia Program",
+      "url": "https://www.worldcat.org/title/in-little-need-of-divine-intervention/oclc/47671328",
+      "openAccess": false,
+      "summary": "A detailed analysis of the Mongol invasions of 1274 and 1281 using the illustrated scrolls commissioned by the samurai Takezaki Suenaga, one of the few contemporary visual records of medieval warfare. Challenges the 'divine wind' narrative.",
+      "keyClaims": [
+        "The Japanese defence was militarily effective before the storms arrived — the kamikaze narrative understates samurai effectiveness",
+        "The invasions represented the largest seaborne military operation before the 20th century and were a direct consequence of Kublai Khan's global imperial ambitions",
+        "The Takezaki scrolls are among the most detailed visual documents of 13th-century warfare anywhere in the world"
+      ],
+      "silenceNote": "Conlan's work situates the Mongol invasions of Japan within the global context that textbooks rarely provide — as part of the same imperial project that destroyed the Abbasid Caliphate and Song China."
+    },
+    {
+      "author": "Jeffrey P. Mass",
+      "year": 1974,
+      "title": "Warrior Government in Early Medieval Japan: A Study of the Kamakura Bakufu, Shugo and Jito",
+      "journal": "Yale University Press",
+      "url": "https://www.worldcat.org/title/warrior-government-in-early-medieval-japan/oclc/930108",
+      "openAccess": false,
+      "summary": "The foundational scholarly study of the Kamakura governmental system, analysing the legal and administrative documents that underpinned samurai governance.",
+      "keyClaims": [
+        "The Kamakura shogunate developed a genuinely original constitutional settlement — dual sovereignty between warrior government and imperial court — that had no parallel in medieval Europe",
+        "The Joei Code of 1232 was a sophisticated legal document that balanced customary warrior practices with Chinese legal theory",
+        "The shogunate's administrative effectiveness rested on written documentation — Japan was a heavily literate political culture"
+      ],
+      "silenceNote": "The Kamakura Shogunate is one of the few non-European polities routinely present in global history curricula — but usually only through the Mongol invasion narrative, stripping away the institutional sophistication Mass documents."
+    }
+  ],
+
+  "song-china": [
+    {
+      "author": "Robert Hartwell",
+      "year": 1982,
+      "title": "Demographic, Political, and Social Transformations of China, 750–1550",
+      "journal": "Harvard Journal of Asiatic Studies, 42(2), 365–442",
+      "url": "https://doi.org/10.2307/2718941",
+      "openAccess": false,
+      "summary": "A landmark demographic and economic study documenting the scale of the Song economic revolution — population, urbanisation, and the emergence of a market economy. Establishes Song China as the world's most economically sophisticated society of the period.",
+      "keyClaims": [
+        "Song China had an urban population larger than all of medieval Europe combined",
+        "Iron production, paper money, and proto-industrial textile manufacturing placed Song China centuries ahead of European equivalents",
+        "The Yangtze delta supported population densities comparable to 18th-century England through sophisticated water management and rice cultivation"
+      ],
+      "silenceNote": "The scale of Song economic achievement — far exceeding contemporary Europe in almost every quantifiable respect — makes the near-absence of Song China from non-Asian global history curricula particularly striking."
+    },
+    {
+      "author": "Patricia Ebrey",
+      "year": 1999,
+      "title": "The Cambridge Illustrated History of China",
+      "journal": "Cambridge University Press",
+      "url": "https://doi.org/10.1017/9781139019521",
+      "openAccess": false,
+      "summary": "A comprehensive accessible history of China including the Song period, notable for its integration of material culture, art history, and political narrative.",
+      "keyClaims": [
+        "The Song capital Hangzhou was visited by Marco Polo decades after its fall; his description of a city of extraordinary wealth and order was not exaggeration",
+        "Neo-Confucian thought, systematised under the Song, shaped East Asian intellectual culture for 700 years"
+      ],
+      "silenceNote": "The Chinese state-authored textbook in the corpus presents Song China primarily through the lens of later Mongol conquest rather than the civilization's own achievements — a framing that echoes the conquest narrative of other national curricula."
+    }
+  ]
+}

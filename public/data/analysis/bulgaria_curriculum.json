@@ -1,0 +1,175 @@
+{
+  "latin-empire": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "partial",
+      "pageCount": 2,
+      "pageRefs": "92–93",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Creation of the Latin Empire after the Fourth Crusade (1204)",
+        "Conflict between Tsar Kaloyan and Emperor Baldwin I",
+        "Battle of Adrianople (1205) and capture of Baldwin",
+        "Latin Empire as a new political power in the Balkans"
+      ],
+      "framingNotes": "Original: «По същото време нов съсед на България станала Латинската империя.» / «...българите разгромили „цвета на западното рицарство“ и пленили Балдуин.» Translation: 'At the same time a new neighbor of Bulgaria became the Latin Empire.' / '...the Bulgarians defeated the flower of Western knighthood and captured Baldwin.' The Latin Empire is framed as a foreign crusader state and immediate military opponent of Bulgaria.",
+      "analystNotes": "Direct 13th-century relevance due to explicit reference to 1204–1205 events. Presented mainly through Bulgarian-Latin conflict.",
+      "coderID": "AS"
+    }
+  ],
+  "epirus-despotate": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "94",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Epirus as a successor Byzantine state",
+        "Conflict with Bulgaria under Theodore Komnenos",
+        "Battle of Klokotnitsa (1230)"
+      ],
+      "framingNotes": "Original: «епирският деспот Теодор Комнин... нахлул в българската територия» Translation: 'The despot of Epirus Theodore Komnenos invaded Bulgarian territory.' Epirus is framed as a rival regional power seeking dominance after the fragmentation of Byzantium.",
+      "analystNotes": "Direct 13th-century relevance due to explicit mention of the 1230 campaign and battle. Coverage is event-focused.",
+      "coderID": "AS"
+    }
+  ],
+  "empire-of-nicaea": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "minimal",
+      "pageCount": 1,
+      "pageRefs": "102",
+      "centuryRelevance": "direct",
+      "narrativeRole": "background",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Nicaea as a successor state after 1204",
+        "Efforts to restore Byzantium",
+        "Role in recapturing Constantinople (1261)"
+      ],
+      "framingNotes": "Original: «...като Епир и Никея... си поставили за цел да възстановят Византия.» Translation: '...such as Epirus and Nicaea set themselves the goal of restoring Byzantium.' Nicaea is framed as one of the key restoration states of Byzantine continuity.",
+      "analystNotes": "Direct 13th-century relevance but limited narrative detail. Appears only as part of broader geopolitical context.",
+      "coderID": "AS"
+    }
+  ],
+  "mongol-empire": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "96",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Expansion under Chinggis Khan",
+        "Invasion of Europe under Batu Khan",
+        "Destruction in Central and Eastern Europe",
+        "Impact on Bulgaria"
+      ],
+      "framingNotes": "Original: «...Чингис хан, създал гигантска империя... хан Бату... стигнал до Унгария и Полша.» Translation: 'Chinggis Khan created a vast empire... Batu Khan reached Hungary and Poland.' The Mongol Empire is framed as a devastating external force affecting European and Bulgarian development.",
+      "analystNotes": "Direct 13th-century relevance with explicit chronological markers and consequences for Bulgaria.",
+      "coderID": "AS"
+    }
+  ],
+  "golden-horde": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "partial",
+      "pageCount": 2,
+      "pageRefs": "96–97",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Tatar domination over Bulgaria",
+        "Political dependence",
+        "Raids and instability"
+      ],
+      "framingNotes": "Original: «Българското царство... попаднало под татарска зависимост.» Translation: 'The Bulgarian tsardom fell under Tatar dependence.' The Golden Horde is framed as a dominant external power shaping Bulgarian decline.",
+      "analystNotes": "Direct 13th-century relevance with sustained impact on internal politics.",
+      "coderID": "AS"
+    }
+  ],
+  "holy-roman-empire": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "minimal",
+      "pageCount": 1,
+      "pageRefs": "90",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "background",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Continuation of Roman imperial idea",
+        "Fragmentation into semi-independent states",
+        "Conflict with Papacy"
+      ],
+      "framingNotes": "Original: «Свещената Римска империя... се превърнала в съюз от стотици почти независими владения.» Translation: 'The Holy Roman Empire became a union of hundreds of almost independent states.' It is framed as a politically fragmented entity in contrast to centralized monarchies.",
+      "analystNotes": "Indirect 13th-century relevance, presented as long-term structural background.",
+      "coderID": "AS"
+    }
+  ],
+  "kingdom-of-hungary": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "partial",
+      "pageCount": 2,
+      "pageRefs": "94, 96",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Territorial conflicts with Bulgaria",
+        "Marriage diplomacy with Bulgaria",
+        "Mongol invasion impact"
+      ],
+      "framingNotes": "Original: «Унгарското кралство завоювало северозападните земи...» Translation: 'The Kingdom of Hungary conquered the northwestern lands.' Hungary is framed as both a rival and diplomatic partner.",
+      "analystNotes": "Direct relevance due to repeated interaction with Bulgaria in the 13th century.",
+      "coderID": "AS"
+    }
+  ],
+  "papal-states": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "partial",
+      "pageCount": 2,
+      "pageRefs": "84–85",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "instrumental",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Papal authority in Western Europe",
+        "Conflict with secular rulers",
+        "Role in crusades and unions"
+      ],
+      "framingNotes": "Original: «Папството... оповестило претенциите си за върховна власт...» Translation: 'The Papacy proclaimed its claims to supreme authority.' It is framed as a dominant religious-political force.",
+      "analystNotes": "Indirect relevance as institutional background influencing 13th-century politics.",
+      "coderID": "AS"
+    }
+  ],
+  "crusader-states": [
+    {
+      "sourceId": "bul-prosveta-history-civilizations-grade6-2017",
+      "coverageStatus": "minimal",
+      "pageCount": 1,
+      "pageRefs": "90",
+      "centuryRelevance": "direct",
+      "narrativeRole": "background",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Creation during crusades",
+        "Feudal organization in the East",
+        "Cultural and trade contacts"
+      ],
+      "framingNotes": "Original: «Кръстоносците основали в Близкия изток свои държави...» Translation: 'The crusaders founded their own states in the Near East.' These are framed as extensions of Western feudalism abroad.",
+      "analystNotes": "Direct relevance but only briefly mentioned.",
+      "coderID": "AS"
+    }
+  ]
+}

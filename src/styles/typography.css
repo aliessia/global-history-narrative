@@ -1,0 +1,140 @@
+/* ============================================================
+   TYPOGRAPHY — Three-register system
+   Playfair: world names, historical voice, dignified
+   Cormorant: prose, description, interpretive text
+   IBM Plex Mono: system, time, analytical vocabulary
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
+/* ── BASE ── */
+* { box-sizing: border-box; }
+body { font-family: 'Cormorant Garamond', serif; }
+
+/* ── PLAYFAIR — world names, headings, historical authority ── */
+.t-world-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--atlas-ivory);
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+}
+
+.t-region-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--atlas-ivory-dim);
+  letter-spacing: 0.02em;
+}
+
+.t-section-head {
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--atlas-gold-dim);
+  letter-spacing: 0.06em;
+}
+
+.t-map-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-weight: 600;
+  fill: var(--atlas-ink);
+  fill-opacity: 0.72;
+  letter-spacing: 0.04em;
+}
+
+/* ── CORMORANT — body, description, prose ── */
+.t-prose {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(220, 200, 165, 0.75);
+  line-height: 1.7;
+}
+
+.t-summary {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(200, 185, 150, 0.65);
+  line-height: 1.6;
+}
+
+.t-period {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--atlas-smoke);
+}
+
+.t-whisper-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(232, 216, 176, 0.9);
+  line-height: 1.2;
+}
+
+.t-whisper-period {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 11px;
+  font-style: italic;
+  color: rgba(200, 180, 130, 0.5);
+  margin-top: 2px;
+}
+
+/* ── IBM PLEX MONO — system, time, analytical ── */
+.t-system {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--atlas-gold-dim);
+}
+
+.t-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--atlas-ivory-ghost);
+}
+
+.t-year {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--atlas-gold);
+  letter-spacing: 0.06em;
+}
+
+.t-metric {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  color: var(--analysis-text-dim);
+}
+
+.t-source-ref {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8.5px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: rgba(180, 200, 160, 0.55);
+}
+
+/* ── ANALYSIS MODE overrides ── */
+.analysis-mode .t-section-head {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  color: var(--analysis-text-dim);
+}

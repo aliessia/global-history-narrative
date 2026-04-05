@@ -1,14 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
-    <title>history-map</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapping Historical Silence</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <script>window.L = window.L || {}</script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body, #root { width: 100%; height: 100%; overflow: hidden; }
+
+    /* Default body background — overridden by mode classes below */
+    body { background: #1e2d3e; }
+
+    /* ── ATLAS MODE ──────────────────────────────────────────────
+       Ocean colour shows between polygon shapes.
+       The terrain image fills individual polygons (via SVG pattern).
+       Body background IS the ocean. */
+    body.atlas-mode-active  { background: #4a7fa8; }
+
+    /* ── ANALYSIS MODE ───────────────────────────────────────────*/
+    body.analysis-mode-active { background: #0e1520; }
+
+    /* ── LEAFLET GLOBAL ─────────────────────────────────────────
+       Transparent background so ocean body colour shows through. */
+    .leaflet-container { background: transparent !important; }
+    .leaflet-control-container { display: none; }
+    .leaflet-heatmap-layer { opacity: 0.7; }
+
+    /* Analysis basemap greyscale */
+
+    body.analysis-mode-active .leaflet-tile-pane {
+      filter: grayscale(0.20) brightness(1.0);
+    }
+
+    /* Range slider global */
+    input[type=range] {
+      -webkit-appearance: none;
+      appearance: none;
+      height: 2px;
+      border-radius: 1px;
+      outline: none;
+      cursor: pointer;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: rgba(200, 160, 72, 0.9);
+      cursor: pointer;
+      transition: box-shadow 150ms;
+    }
+    input[type=range]:hover::-webkit-slider-thumb {
+      box-shadow: 0 0 0 4px rgba(200, 160, 72, 0.18);
+    }
+    input[type=range]::-moz-range-thumb {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: rgba(200, 160, 72, 0.9);
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!--
+    SVG DEFINITIONS
+    All filters and patterns used across the application.
+    Must be in the DOM before the map renders.
+
+    terrain-fx      organic edge displacement — makes polygon borders look hand-drawn
+    river-glow      soft halo on polygon border strokes
+    terrain-pattern fills polygon shapes with the terrain webp texture
+                    ↑ THIS is what creates the Pudding effect:
+                      terrain inside polygons, ocean visible between them
+  -->
+  <svg style="display:none;position:absolute;width:0;height:0;" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+
+      <!-- Organic displacement — applied to .leaflet-overlay-pane via TerrainFilter.jsx -->
+      <filter id="terrain-fx" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence
+          type="fractalNoise"
+          baseFrequency="0.018 0.022"
+          numOctaves="4"
+          seed="42"
+          result="noise"
+        />
+        <feDisplacementMap
+          in="SourceGraphic"
+          in2="noise"
+          scale="5.5"
+          xChannelSelector="R"
+          yChannelSelector="G"
+        />
+      </filter>
+
+      <!-- River glow — soft halo applied to individual border strokes -->
+      <filter id="river-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="2.5" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+
+      <!--
+        TERRAIN PATTERN
+        userSpaceOnUse: pattern coordinates match the SVG viewport (Leaflet's internal px space)
+        At zoom 3, Leaflet's SVG space is ~2048px wide for the whole world.
+        We use 4096x4096 to cover the full initial view without visible tiling seams.
+        The image is stretched to fill — works because the texture is non-directional.
+
+        Colour correction is applied here via feColorMatrix:
+        - reduce green cast from the generated image
+        - warm toward parchment/ochre
+        - slight brightness up
+      -->
+
+      <pattern
+        id="terrain-pattern"
+        patternUnits="userSpaceOnUse"
+        x="-512" y="-512"
+        width="2048" height="2048"
+      >
+        <image
+          href="/terrain/atlas-terrain.webp"
+          x="-512" y="-512"
+          width="2048" height="2048"
+          preserveAspectRatio="xMidYMid slice"
+        />
+      /pattern>
+      <!--
+        TERRAIN PATTERN — lighter version for hover state
+        Slightly brighter so selected regions stand out from resting state
+      -->
+      <pattern
+        id="terrain-pattern-hover"
+        patternUnits="userSpaceOnUse"
+        x="0" y="0"
+        width="4096" height="4096"
+      >
+        <image
+          href="/terrain/atlas-terrain.webp"
+          x="0" y="0"
+          width="4096" height="4096"
+          preserveAspectRatio="xMidYMid slice"
+        />
+      </pattern>
+
+    </defs>
+  </svg>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>

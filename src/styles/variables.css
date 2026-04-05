@@ -1,0 +1,85 @@
+/* ============================================================
+   MAPPING HISTORICAL SILENCE — Design Tokens
+   Two registers: atlas (world-entry) and analysis (distortion)
+   ============================================================ */
+
+:root {
+
+  /* ── ATLAS PALETTE ── */
+  --atlas-ocean-deep:    #3c6282;
+  --atlas-ocean-mid:     #4e7d9f;
+  --atlas-ocean-shallow: #66a0c0;
+  --atlas-river:         #84b6cf;
+  --atlas-river-glow:    rgba(132, 182, 207, 0.28);
+
+  --atlas-parchment-full:    rgba(208, 176, 102, 0.80);
+  --atlas-parchment-partial: rgba(208, 176, 102, 0.52);
+  --atlas-parchment-absent:  rgba(224, 206, 166, 0.16);
+  --atlas-parchment-pending: rgba(208, 176, 102, 0.34);
+
+  --atlas-ink:           #332616;
+  --atlas-ink-light:     rgba(51, 38, 22, 0.74);
+  --atlas-ink-faint:     rgba(51, 38, 22, 0.40);
+
+  --atlas-gold:          #d1aa56;
+  --atlas-gold-dim:      rgba(209, 170, 86, 0.54);
+  --atlas-gold-ghost:    rgba(209, 170, 86, 0.22);
+
+  --atlas-ivory:         #f6edd8;
+  --atlas-ivory-dim:     rgba(246, 237, 216, 0.82);
+  --atlas-ivory-ghost:   rgba(246, 237, 216, 0.42);
+
+  --atlas-cream:         #eedfbb;
+  --atlas-smoke:         rgba(210, 195, 165, 0.62);
+
+  /* figure accent (plum, never neon) */
+  --atlas-figure:        rgba(136, 98, 146, 0.62);
+
+  /* surface */
+  --atlas-surface:       rgba(10, 22, 24, 0.88);
+  --atlas-surface-mid:   rgba(14, 28, 30, 0.76);
+  --atlas-surface-light: rgba(18, 36, 38, 0.52);
+  --atlas-border:        rgba(255, 255, 255, 0.10);
+  --atlas-border-gold:   rgba(209, 170, 86, 0.24);
+
+  /* ── ANALYSIS PALETTE ── */
+  --analysis-absent:     #b85040;
+  --analysis-partial:    #4878a0;
+  --analysis-covered:    #4a8830;
+  --analysis-pending:    #987820;
+
+  --analysis-absent-fill:    rgba(184, 80, 64,  0.35);
+  --analysis-partial-fill:   rgba(72,  120, 160, 0.35);
+  --analysis-covered-fill:   rgba(74,  136, 48,  0.38);
+  --analysis-pending-fill:   rgba(152, 120, 32,  0.30);
+
+  --analysis-bg:         #0e1520;
+  --analysis-surface:    rgba(14, 21, 32, 0.92);
+  --analysis-text:       rgba(200, 210, 220, 0.80);
+  --analysis-text-dim:   rgba(180, 190, 200, 0.45);
+  --analysis-border:     rgba(255, 255, 255, 0.08);
+  --analysis-accent:     #d4903a;
+
+  /* ── SHARED TIMINGS ── */
+  --t-micro:   120ms;
+  --t-short:   200ms;
+  --t-medium:  280ms;
+  --t-long:    420ms;
+  --ease-damp: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  /* ── SHARED RADII ── */
+  --r-sm:  4px;
+  --r-md:  8px;
+  --r-lg:  12px;
+  --r-xl:  20px;
+  --r-pill: 999px;
+
+  /* ── Z-INDEX STACK ── */
+  --z-map:        100;
+  --z-overlay:    200;
+  --z-worldlayer: 500;
+  --z-dossier:    600;
+  --z-cabinet:    700;
+  --z-ui:         800;
+  --z-modal:      900;
+}

@@ -1,0 +1,99 @@
+{
+  "_comment": "Met Museum search terms per region. ObjectPresences.jsx uses the Met Search API dynamically. Format: { query, department (optional), maxResults }. Department IDs: 5=Africa/Oceania, 6=Asian Art, 8=Islamic Art, 19=Arms&Armor",
+  "mali-empire": {
+    "query": "mali west africa gold bronze",
+    "department": 5,
+    "maxResults": 4,
+    "fallbackQuery": "west africa medieval gold jewelry"
+  },
+  "delhi-sultanate": {
+    "query": "india sultanate islamic architecture",
+    "department": 8,
+    "maxResults": 4,
+    "fallbackQuery": "india medieval islamic metalwork"
+  },
+  "golden-horde": {
+    "query": "mongol steppe gold silver",
+    "department": 8,
+    "maxResults": 4,
+    "fallbackQuery": "central asia medieval nomad"
+  },
+  "japan": {
+    "query": "samurai armor japan kamakura",
+    "department": 19,
+    "maxResults": 4,
+    "fallbackQuery": "japan medieval sword armor"
+  },
+  "song-china": {
+    "query": "song dynasty china ceramic porcelain",
+    "department": 6,
+    "maxResults": 4,
+    "fallbackQuery": "china song dynasty painting"
+  },
+  "novgorod-republic": {
+    "query": "russia medieval orthodox icon",
+    "department": 17,
+    "maxResults": 3,
+    "fallbackQuery": "russia byzantine medieval"
+  },
+  "republic-of-venice": {
+    "query": "venice medieval glass manuscript",
+    "department": 17,
+    "maxResults": 4,
+    "fallbackQuery": "venice medieval italian merchant"
+  },
+  "ilkhanate": {
+    "query": "ilkhanid mongol persia manuscript",
+    "department": 8,
+    "maxResults": 4,
+    "fallbackQuery": "mongol persia medieval"
+  },
+  "yuan-dynasty": {
+    "query": "yuan dynasty china kublai khan",
+    "department": 6,
+    "maxResults": 4,
+    "fallbackQuery": "china mongol dynasty painting"
+  },
+  "goryeo": {
+    "query": "goryeo korea celadon ceramic",
+    "department": 6,
+    "maxResults": 3,
+    "fallbackQuery": "korea medieval celadon"
+  },
+  "khmer-empire": {
+    "query": "khmer cambodia angkor bronze",
+    "department": 6,
+    "maxResults": 4,
+    "fallbackQuery": "southeast asia medieval bronze sculpture"
+  },
+  "pagan-empire": {
+    "query": "myanmar burma buddhist bronze",
+    "department": 6,
+    "maxResults": 4,
+    "fallbackQuery": "southeast asia buddhist gold lacquer"
+  },
+  "chola-empire": {
+    "query": "chola south india bronze sculpture",
+    "department": 6,
+    "maxResults": 4,
+    "fallbackQuery": "india south bronze nataraja medieval"
+  },
+  "mapungubwe": {
+    "query": "southern africa gold iron age",
+    "department": 5,
+    "maxResults": 4,
+    "fallbackQuery": "sub saharan africa gold jewelry"
+  },
+  "mamluk-sultanate": {
+    "query": "mamluk egypt islamic metalwork",
+    "department": 8,
+    "maxResults": 4,
+    "fallbackQuery": "egypt medieval islamic brass inlaid"
+  },
+  "republic-of-genoa": {
+    "query": "genoa medieval italy silver trade",
+    "department": 11,
+    "maxResults": 4,
+    "fallbackQuery": "italy medieval silver gold coin"
+  }
+}

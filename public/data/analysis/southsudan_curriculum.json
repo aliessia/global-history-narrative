@@ -1,0 +1,116 @@
+{
+  "ethiopian-empire": [
+    {
+      "sourceId": "ssd-moe-history-studentbook-sec3-2018",
+      "coverageStatus": "present",
+      "pageCount": 4,
+      "pageRefs": "23–26",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Ethiopian Empire (Abyssinia) from 1137 to 1947",
+        "Adoption of Christianity in the 4th century",
+        "Zagwe dynasty and rock-hewn churches",
+        "Rise of Solomonic Dynasty in 1270",
+        "Dynastic continuity and territorial expansion",
+        "Conflicts with neighbouring powers and internal instability"
+      ],
+      "framingNotes": "“It existed from around 1137 to 1947…” / “The Zagwe Dynasty was later overthrown… in 1270.” Ethiopia is framed as a long-lasting Christian empire defined by dynastic continuity and resilience against external threats.",
+      "analystNotes": "The establishment of the Solomonic Dynasty in 1270 falls directly within the 13th century, making this a direct reference point. The text presents Ethiopia as a continuous imperial structure entering the 13th century through dynastic transition.",
+      "coderID": "AS"
+    }
+  ],
+  "ghana-empire": [
+    {
+      "sourceId": "ssd-moe-history-studentbook-sec3-2018",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "29–30",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Ghana Empire from 6th to 13th century",
+        "Soninke origins and Kumbi Saleh",
+        "Trans-Saharan trade networks",
+        "Taxation and political control",
+        "Decline through invasion, rebellion, and environmental change",
+        "Attack on Kumbi Saleh in 1203",
+        "Annexation by Mali Empire"
+      ],
+      "framingNotes": "“This was a kingdom that lasted from the 6th to the 13th Century.” / “In 1203, Kumbi Saleh was attacked…” Ghana is framed as a trade empire whose decline culminates in the 13th century.",
+      "analystNotes": "Direct reference to 1203 and explicit statement of existence into the 13th century make this directly relevant. The narrative emphasises collapse at the start of the 13th century.",
+      "coderID": "AS"
+    }
+  ],
+  "mali-empire": [
+    {
+      "sourceId": "ssd-moe-history-studentbook-sec3-2018",
+      "coverageStatus": "present",
+      "pageCount": 2,
+      "pageRefs": "30–31",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Mali Empire from 1230 to 1670",
+        "Foundation by Sundiata Keita",
+        "Early imperial consolidation",
+        "Death of Sundiata in 1255",
+        "Provincial governance",
+        "Trans-Saharan trade",
+        "Islamic rulership and pilgrimage",
+        "Economic system based on gold and trade"
+      ],
+      "framingNotes": "“This was an Empire in West Africa which existed from 1230 to 1670.” Mali is framed as a powerful Islamic trading empire with strong leadership and administrative organisation.",
+      "analystNotes": "The foundation (1230) and early rule (1255) fall squarely in the 13th century. Direct coverage of formation phase.",
+      "coderID": "AS"
+    }
+  ],
+  "song-china": [
+    {
+      "sourceId": "ssd-moe-history-studentbook-sec3-2018",
+      "coverageStatus": "partial",
+      "pageCount": 3,
+      "pageRefs": "6–8",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "instrumental",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Origins of Chinese civilisation",
+        "Early dynasties (Chou, Qin, Han)",
+        "Centralised governance",
+        "Technological achievements",
+        "Silk Road trade",
+        "Dynastic cycles"
+      ],
+      "framingNotes": "“Chinese history of civilisation began around 1500 BC…” China is presented as a continuous civilisation focused on early dynasties and achievements.",
+      "analystNotes": "Song China existed in the 13th century but is not explicitly mentioned. Structural features (state, trade, technology) provide indirect relevance.",
+      "coderID": "AS"
+    }
+  ],
+  "inca-empire": [
+    {
+      "sourceId": "ssd-moe-history-studentbook-sec3-2018",
+      "coverageStatus": "present",
+      "pageCount": 7,
+      "pageRefs": "13–20",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "primary",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Origin around 1200 near Cusco",
+        "Early rulers and expansion",
+        "Imperial administration",
+        "Social structure",
+        "Agriculture and irrigation",
+        "Infrastructure (roads)",
+        "Religion and culture"
+      ],
+      "framingNotes": "“...settled in the valley near Cusco Circa in 1200…” Inca are framed as a highly organised empire with strong infrastructure and social systems.",
+      "analystNotes": "The origin around 1200 places the Inca in early 13th century context, but most content focuses on later development. Indirect relevance through formation.",
+      "coderID": "AS"
+    }
+  ]
+}

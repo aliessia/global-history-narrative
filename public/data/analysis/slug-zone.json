@@ -1,0 +1,68 @@
+{
+  "_comment": "Canonical slug → zone mapping. Add new slugs here when adding new curriculum files. Existing entries are never modified — only append new ones.",
+
+  "kingdom-of-france":      "europe_west",
+  "kingdom-of-england":     "europe_west",
+  "holy-roman-empire":      "europe_west",
+  "hanseatic-league":       "europe_west",
+  "republic-of-venice":     "europe_west",
+  "republic-of-genoa":      "europe_west",
+  "kingdom-of-aragon":      "europe_west",
+  "kingdom-of-castile":     "europe_west",
+  "kingdom-of-portugal":    "europe_west",
+  "papal-states":           "europe_west",
+  "kingdom-of-norway":      "europe_west",
+  "kingdom-of-sweden":      "europe_west",
+  "kingdom-of-denmark":     "europe_west",
+
+  "kievan-rus":             "europe_east",
+  "vladimir-suzdal":        "europe_east",
+  "novgorod-republic":      "europe_east",
+  "kingdom-of-serbia":      "europe_east",
+  "second-bulgarian-empire":"europe_east",
+  "kingdom-of-hungary":     "europe_east",
+  "kingdom-of-poland":      "europe_east",
+  "byzantine-empire":       "europe_east",
+  "latin-empire":           "europe_east",
+
+  "ottoman-empire":         "middle_east",
+  "ilkhanate":              "middle_east",
+  "ayyubid-sultanate":      "middle_east",
+  "mamluk-sultanate":       "middle_east",
+  "sultanate-of-rum":       "middle_east",
+  "abbasid-caliphate":      "middle_east",
+  "crusader-states":        "middle_east",
+
+  "golden-horde":           "central_asia",
+  "chagatai-khanate":       "central_asia",
+  "mongol-empire":          "central_asia",
+  "khwarezmian-empire":     "central_asia",
+
+  "yuan-dynasty":           "east_asia",
+  "song-china":             "east_asia",
+  "japan":                  "east_asia",
+  "goryeo":                 "east_asia",
+  "annam":                  "east_asia",
+  "champa":                 "east_asia",
+  "khmer-empire":           "east_asia",
+
+  "delhi-sultanate":        "south_asia",
+  "chola-empire":           "south_asia",
+  "hoysala-empire":         "south_asia",
+  "kakatiyas":              "south_asia",
+
+  "mali-empire":            "africa_west",
+  "ghana-empire":           "africa_west",
+  "songhai-empire":         "africa_west",
+  "kanem-bornu":            "africa_west",
+
+  "ethiopian-empire":       "africa_east",
+  "swahili-coast":          "africa_east",
+  "great-zimbabwe":         "africa_east",
+  "sultanate-of-kilwa":     "africa_east",
+
+  "maya-city-states":       "americas",
+  "aztec-empire":           "americas",
+  "inca-empire":            "americas",
+  "chimu-kingdom":          "americas"
+}

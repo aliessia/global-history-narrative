@@ -1,0 +1,55 @@
+{
+  "_comment": "Keywords used to classify topic strings into analytical categories for Framing Index computation. Topics are matched case-insensitively against these keyword lists.",
+
+  "governance_agency": {
+    "label": "Governance & Agency",
+    "color": "#4a8830",
+    "keywords": [
+      "foundation", "founded", "established", "reform", "reformed",
+      "administration", "governed", "governance", "parliament",
+      "senate", "council", "constitution", "charter", "magna carta",
+      "law", "legal", "rights", "independent", "independence",
+      "republic", "dynasty", "shogun", "sultan", "khan", "emperor",
+      "centrali", "institution", "kurultai", "iqta", "doge",
+      "beylik", "fiscal", "taxation as policy", "market policy",
+      "price regulation", "provincial"
+    ]
+  },
+
+  "trade_culture": {
+    "label": "Trade & Culture",
+    "color": "#4878a0",
+    "keywords": [
+      "trade", "commerce", "merchant", "gold", "silk", "salt",
+      "caravan", "route", "market", "city", "cities", "urban",
+      "architecture", "church", "mosque", "temple", "religion",
+      "islam", "christian", "buddhis", "confucian", "art",
+      "culture", "cultural", "technology", "agriculture",
+      "craft", "manufacture", "monetary", "ducat", "polo",
+      "timbuktu", "gao", "saray", "lubeck", "venice"
+    ]
+  },
+
+  "military_conquest": {
+    "label": "Military & Conquest",
+    "color": "#b85040",
+    "keywords": [
+      "conquest", "invasion", "invaded", "attack", "captured",
+      "capture", "defeat", "defeated", "battle", "war", "military",
+      "crusade", "campaign", "besieg", "mongol invasion",
+      "subordinat", "tribute", "subjugat", "occupied",
+      "baron", "resistance", "revolt", "uprising", "rebellion"
+    ]
+  },
+
+  "decline_fragmentation": {
+    "label": "Decline & Fragmentation",
+    "color": "#987820",
+    "keywords": [
+      "decline", "fragmentation", "fragmented", "collapse",
+      "disintegrat", "weaken", "weakness", "breakup", "divided",
+      "division", "crisis", "unrest", "instabilit",
+      "political crisis", "peasant burden", "economic crisis"
+    ]
+  }
+}

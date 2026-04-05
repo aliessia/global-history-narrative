@@ -1,0 +1,386 @@
+{
+  "japan-kamakura": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "present",
+      "pageCount": 3,
+      "pageRefs": "52–54",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Yamato state and early Japanese political structure",
+        "Taika Reform (646) — centralisation modelled on Tang dynasty",
+        "Emergence of warrior class through land fragmentation",
+        "Kamakura shogunate established by Minamoto no Yoritomo",
+        "Dual authority structure — shogun and emperor",
+        "Feudal land and loyalty system",
+        "Bushido as warrior code"
+      ],
+      "analystNotes": "Kamakura shogunate (1185–1333) encompasses the full 13th century. No explicit date of '13世纪' but the lesson describes its institutional structure in terms that clearly apply to the 13th century period. Dedicated lesson — the most substantive Asian coverage in the volume alongside the Arab Empire.",
+      "coderID": "AS"
+    }
+  ],
+
+  "goryeo": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "54",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Three Kingdoms period (3rd–4th century)",
+        "Silla unification (676)",
+        "Goryeo dynasty founded by Wang Geon (10th century)",
+        "Tang-style administrative system and civil service examinations",
+        "Joseon dynasty founded (late 14th century)"
+      ],
+      "framingNotes": "Original: «10世纪，王建建立高丽王朝，仿照唐制，设三省六部，引入科举考试选拔官员。14世纪末，高丽大将李成桂建立朝鲜王朝，改国号为朝鲜。» Translation: 'In the 10th century, Wang Geon established the Goryeo dynasty, modelling it on the Tang system with three chancelleries and six ministries, and introduced the civil service examination to select officials. At the end of the 14th century, the Goryeo general Yi Seonggye established the Joseon dynasty, changing the state name to Joseon.' Korea treated as an appendix to the Japan lesson. Three sentences only.",
+      "analystNotes": "Goryeo existed throughout the 13th century but the text covers only its founding (10th century) and its replacement (14th century). The Mongol invasions of Goryeo in 1231–1259, a defining 13th century event for the peninsula, are entirely absent. centuryRelevance coded indirect because the dynasty was active in the 13th century, not because the text addresses that period.",
+      "coderID": "AS"
+    }
+  ],
+
+  "abbasid-caliphate": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-širong",
+      "coverageStatus": "present",
+      "pageCount": 4,
+      "pageRefs": "55–58",
+      "centuryRelevance": "direct",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Muhammad and foundation of Islam (7th century)",
+        "Arab expansion across Asia, Europe, and Africa",
+        "Abbasid centralised caliphate administration",
+        "House of Wisdom founded 830",
+        "Translation movement — Greek, Persian, Indian texts into Arabic",
+        "Arabic numerals and algebra",
+        "Ibn Sina and medical scholarship",
+        "One Thousand and One Nights as cultural legacy",
+        "Transmission of Chinese compass, papermaking, gunpowder to Europe via Arab merchants",
+        "Internal fragmentation from 9th century",
+        "Fall of Baghdad to Mongols 1258"
+      ],
+      "framingNotes": "Original: «阿拉伯人担当了沟通东西方文化的角色，为世界文化的发展作出了卓越贡献。中国的造纸术、指南针、火药等重大发明和印度的棉花、食糖等都是由阿拉伯人传入欧洲的。» / «1258年，蒙古人攻陷巴格达，阿拉伯帝国灭亡。» Translation: 'The Arabs played the role of a bridge between Eastern and Western cultures, making outstanding contributions to the development of world culture. China's major inventions of papermaking, the compass, and gunpowder, as well as India's cotton and sugar, were all introduced to Europe by the Arabs.' / '在1258, the Mongols captured Baghdad and the Arab Empire was destroyed.' Arab Empire framed primarily as a civilisational bridge and cultural transmitter. The 1258 Mongol conquest appears as the terminal event of the lesson, not as an opening to discussion of the Mongol period.",
+      "analystNotes": "The 13th century appears only as the moment of the empire's destruction. No coverage of the Abbasid caliphate's internal situation during 1200–1258. The cultural transmission content (compass, papermaking) is undated in the text. This framing positions Arabs as conduits of Chinese and Indian knowledge to Europe — the Arab world as instrumental to European development rather than as a centre of civilisation in its own right.",
+      "coderID": "AS"
+    }
+  ],
+
+  "mongol-empire": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": "57",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": "Original: «从9世纪中叶起，阿拉伯帝国内讧不已。北非、西班牙等地的分裂势力，以及近200年之久的十字军东征，消耗了帝国的实力。1258年，蒙古人攻陷巴格达，阿拉伯帝国灭亡。» Translation: 'From the mid-9th century, the Arab Empire was riven by internal strife. Separatist forces in North Africa and Spain, as well as nearly 200 years of Crusades, had sapped the empire's strength. In 1258, the Mongols captured Baghdad and the Arab Empire was destroyed.' Mongols appear in one sentence as the agent of the Arab Empire's destruction. No further content on the Mongols.",
+      "analystNotes": "Single sentence, directly 13th century (1258). Mongols function grammatically and analytically as an external destructive force ending another civilisation's story. No coverage of Mongol state formation, Chinggis Khan, administrative structure, Pax Mongolica, or any internal history. Confirmed absent as subject from the full volume — table of contents contains no dedicated lesson on the Mongol Empire. This is the fourth national curriculum in the corpus to treat the Mongol Empire exclusively as an external destructive agent rather than a historical subject.",
+      "coderID": "AS"
+    }
+  ],
+
+  "byzantine-empire": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "present",
+      "pageCount": 4,
+      "pageRefs": "47–50",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "primary",
+      "confidence": "high",
+      "topicsPresent": [
+        "Foundation of Constantinople (330)",
+        "Justinian I and legal codification",
+        "Corpus Juris Civilis — Justinian Code, Digest, Institutes, Novellae",
+        "Treatment of slavery in Roman law",
+        "Arab pressure from 7th century",
+        "Military reorganisation into theme system",
+        "Fourth Crusade attack on Constantinople (undated in text)",
+        "Ottoman pressure from 14th century",
+        "Fall of Constantinople 1453",
+        "Byzantine cultural legacy — preservation of Greek and Roman texts"
+      ],
+      "framingNotes": "Original: «十字军不仅没有给拜占庭以军事援助，反而攻打拜占庭帝国，占领了君士坦丁堡和拜占庭的大部分领土。拜占庭帝国国势日渐衰弱。» / «拜占庭帝国是一个地跨欧、亚、非三洲的大帝国。它对基督教、希腊罗马的古典文化传统，以及西亚、北非等地的东方文化因素兼收并蓄，创造出独具特色的拜占庭文化，在世界上产生过重大影响。它保存了大量的希腊、罗马古籍，为后来西欧的文艺复兴提供了丰富的精神营养。» Translation: 'The Crusaders not only failed to provide military aid to Byzantium, but instead attacked the Byzantine Empire, occupying Constantinople and most of its territory. The Byzantine Empire grew progressively weaker.' / 'The Byzantine Empire was a great empire spanning Europe, Asia, and Africa. It drew on and synthesised Christianity, the classical Graeco-Roman cultural tradition, and elements of Eastern culture from West Asia and North Africa, creating a distinctively Byzantine culture that had a profound influence on the world. It preserved a large body of Greek and Roman texts, providing rich intellectual nourishment for the later Renaissance in Western Europe.' Byzantine Empire framed primarily as the preserver of classical antiquity for European use.",
+      "analystNotes": "The Fourth Crusade (1204) is referenced without a year. centuryRelevance coded indirect because the 13th century is not explicitly dated. Primary focus of the lesson is the 6th century (Justinian) and the 15th century (fall). The framing consistently positions Byzantium as a cultural vessel serving European intellectual history rather than as a subject with its own 13th century political and social life.",
+      "coderID": "AS"
+    }
+  ],
+
+  "crusader-states": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "49",
+      "centuryRelevance": "indirect",
+      "narrativeRole": "instrumental",
+      "confidence": "medium",
+      "topicsPresent": [
+        "Crusaders attacking Byzantine Empire rather than aiding it",
+        "Occupation of Constantinople and Byzantine territory"
+      ],
+      "framingNotes": "Original: «早就垂涎东方土地和财富的西欧封建主在罗马教皇的号召下组建了十字军进行东征。十字军不仅没有给拜占庭以军事援助，反而攻打拜占庭帝国，占领了君士坦丁堡和拜占庭的大部分领土。» Translation: 'Western European feudal lords who had long coveted Eastern lands and wealth organised the Crusades under the call of the Roman Pope. The Crusaders not only failed to provide military aid to Byzantium, but instead attacked the Byzantine Empire, occupying Constantinople and most of its territory.' Crusaders appear solely as agents of Byzantine decline. No discussion of the Crusader states as political entities.",
+      "analystNotes": "The Fourth Crusade (1204) is the implied event but is not dated in the text. The Crusader States as political entities with governance, territory, and history are entirely absent. Confidence coded medium because the event is unambiguously the Fourth Crusade but requires reader inference to identify as 13th century.",
+      "coderID": "AS"
+    }
+  ],
+
+  "republic-of-venice": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "partial",
+      "pageCount": 2,
+      "pageRefs": "42, 60–63",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Venice as major medieval city with population over 50,000 (13th century)",
+        "Italian cities as centres of proto-manufacturing from 13th century",
+        "Merchant investment in workshop production"
+      ],
+      "framingNotes": "Original: «13世纪时，英格兰最大的城市伦敦只有4万人左右，像法兰西的巴黎，意大利的米兰、威尼斯等拥有超过5万人口的城市屈指可数。» / «从13世纪开始，一些规模较大的手工工场在国际贸易发达的地区出现，如意大利和法兰西北部。» Translation: 'In the 13th century, London, England's largest city, had only around 40,000 people; cities with more than 50,000 people, such as Paris in France and Milan and Venice in Italy, were very few.' / 'From the 13th century, some larger handicraft workshops appeared in regions with developed international trade, such as Italy and northern France.' Venice appears as a data point in European urban and economic development. No political or commercial history of Venice as an independent republic.",
+      "analystNotes": "Two explicit 13th century references. Venice named in population statistics and in the context of proto-manufacturing. No political history, no doge system, no commercial empire described. Coded partial: named and 13th century explicit, but purely instrumental within a narrative of European economic transformation.",
+      "coderID": "AS"
+    }
+  ],
+
+  "kingdom-of-france": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "partial",
+      "pageCount": 2,
+      "pageRefs": "42, 44–45",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "Paris as major medieval city with population over 50,000 (13th century)",
+        "University of Paris — teacher guild receiving papal and royal support (13th century)",
+        "Laon commune uprising and urban self-governance"
+      ],
+      "framingNotes": "Original: «13世纪，巴黎教师行会得到罗马教皇和国王的支持，自治权利得到保证。大学的自治地位主要体现在免赋税特权、司法特权、教育自主权。» Translation: 'In the 13th century, the Paris teachers' guild received the support of the Roman Pope and the king, and its autonomous rights were guaranteed. The autonomous status of universities was mainly reflected in tax exemption privileges, judicial privileges, and educational autonomy.' France appears through its cities and institutions rather than as a political entity.",
+      "analystNotes": "Two explicit 13th century references for Paris. France as a medieval kingdom — its monarchy, territorial development, or political history in the 13th century — is structurally absent. Coverage is urban and institutional only.",
+      "coderID": "AS"
+    }
+  ],
+
+  "kingdom-of-england": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "partial",
+      "pageCount": 1,
+      "pageRefs": "42",
+      "centuryRelevance": "direct",
+      "narrativeRole": "instrumental",
+      "confidence": "high",
+      "topicsPresent": [
+        "London as England's largest medieval city with population approximately 40,000 (13th century)"
+      ],
+      "framingNotes": "Original: «13世纪时，英格兰最大的城市伦敦只有4万人左右，像法兰西的巴黎，意大利的米兰、威尼斯等拥有超过5万人口的城市屈指可数。» Translation: 'In the 13th century, London, England's largest city, had only around 40,000 people; cities with more than 50,000 people, such as Paris in France and Milan and Venice in Italy, were very few.' Single sentence. England appears as a demographic comparator only.",
+      "analystNotes": "One explicitly 13th century sentence. England as a political entity with its own 13th century history — Magna Carta (1215), development of Parliament, common law — is entirely absent. Coded partial: named and 13th century explicit, but purely instrumental as a data point in European urban history.",
+      "coderID": "AS"
+    }
+  ],
+
+  "holy-roman-empire": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Original: «843年，查理曼的三个孙子缔结条约，将帝国一分为三，形成以后德意志、法兰西和意大利三个国家的雏形。» Translation: 'In 843, Charlemagne's three grandsons concluded a treaty dividing the empire into three, forming the embryonic forms of the later states of Germany, France, and Italy.' The Carolingian Empire is covered in Lesson 7 as a precursor of later European states. The Holy Roman Empire as a 13th century polity — the period of Frederick II, papal-imperial conflict, and German territorial fragmentation — is not discussed anywhere in the volume. Confirmed absent from table of contents.",
+      "coderID": "AS"
+    }
+  ],
+
+  "mali-empire": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Full table of contents reviewed. No lesson, unit, or mention of the Mali Empire or any West African medieval polity in the volume. Mali Empire founded 1235 — directly within the period this textbook covers in other contexts. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "song-china": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Original (Tang dynasty framing in Japan lesson): «6—9世纪，日本积极吸收中国文化。中国文化直接影响着日本，推动日本进行改革。» Translation: 'From the 6th to 9th centuries, Japan actively absorbed Chinese culture. Chinese culture directly influenced Japan, driving Japan to carry out reforms.' China appears in this volume in two instrumental contexts only: as a cultural source for Japan (Tang dynasty model) and as the origin of technologies transmitted to Europe via Arab merchants. The Song Dynasty as a named polity does not appear anywhere in the volume. This is a state-authored Chinese world history textbook that does not treat Song China — the dynasty contemporaneous with the period covered in Units 3 and 4 — as a historical subject. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "delhi-sultanate": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned anywhere in the volume. India appears in Lesson 1 (ancient Indus Valley civilisation) and instrumentally as a destination of Arab expansion and Portuguese sea routes, but the medieval Delhi Sultanate — a major 13th century polity — has no coverage. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "khmer-empire": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned anywhere in the volume. No Southeast Asian medieval polity has any coverage. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "mapungubwe": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned. No sub-Saharan African medieval content in any unit of the volume. Africa appears only as a geographic region in the context of Arab expansion and Portuguese sea routes. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "kingdom-of-vungu": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned. No Central African medieval content in the volume. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "ngoyo": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "kakongo": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "nsundi": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "mpemba": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ],
+
+  "kievan-rus": [
+    {
+      "sourceId": "chn-pep-worldhistory-g9-vol1-qi-shirong",
+      "coverageStatus": "absent",
+      "pageCount": 0,
+      "pageRefs": null,
+      "centuryRelevance": "none",
+      "narrativeRole": null,
+      "confidence": "high",
+      "topicsPresent": [],
+      "framingNotes": null,
+      "analystNotes": "Not mentioned anywhere in the volume. The Mongol destruction of Kievan Rus (1237–1240) — a major 13th century event — does not appear even in the single sentence about the Mongols, which refers only to the fall of Baghdad. Confirmed absent at book level.",
+      "coderID": "AS"
+    }
+  ]
+}
